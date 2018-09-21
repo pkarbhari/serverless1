@@ -1,0 +1,202 @@
+2018-09-20T20:19:35.033 [Info] Function started (Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd)
+2018-09-20T20:19:35.611 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:19:35.627 [Info] Function completed (Success, Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd, Duration=585ms)
+2018-09-20T20:20:26.431 [Info] Script for function 'GetRatings' changed. Reloading.
+2018-09-20T20:20:37.858 [Info] Function started (Id=9643baac-a243-4be1-b5ae-84fe67948eb8)
+2018-09-20T20:20:37.890 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:20:37.890 [Info] Function completed (Success, Id=9643baac-a243-4be1-b5ae-84fe67948eb8, Duration=35ms)
+2018-09-20T20:22:29.976 [Info] Function started (Id=608777e3-5a31-497a-bacb-be464c05aa05)
+2018-09-20T20:22:30.179 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:22:30.179 [Info] Function completed (Success, Id=608777e3-5a31-497a-bacb-be464c05aa05, Duration=194ms)
+2018-09-20T20:24:50.108 [Info] Function started (Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9)
+2018-09-20T20:24:50.264 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:24:50.264 [Info] Function completed (Success, Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9, Duration=145ms)
+2018-09-20T20:25:43.107 [Info] Function started (Id=9d9cf076-8ee0-47ac-a48e-853d18af2038)
+2018-09-20T20:25:43.139 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:25:43.139 [Info] Function completed (Success, Id=9d9cf076-8ee0-47ac-a48e-853d18af2038, Duration=31ms)
+2018-09-20T20:25:58.860 [Info] Function started (Id=4dda5368-e402-4aed-a291-0b9f66031816)
+2018-09-20T20:25:58.907 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:25:58.907 [Info] Function completed (Success, Id=4dda5368-e402-4aed-a291-0b9f66031816, Duration=36ms)
+2018-09-20T20:28:01.563 [Info] Function started (Id=577f0abc-6772-41db-a40e-aed84033726d)
+2018-09-20T20:28:01.970 [Error] Exception while executing function: Functions.GetRatings. Microsoft.Azure.Documents.Client: Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T20:28:01.985 [Error] Function completed (Failure, Id=577f0abc-6772-41db-a40e-aed84033726d, Duration=427ms)
+2018-09-20T20:29:09.318 [Info] Function started (Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f)
+2018-09-20T20:29:09.493 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:29:09.493 [Info] Function completed (Success, Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f, Duration=185ms)
+2018-09-20T20:29:33.602 [Info] Function started (Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033)
+2018-09-20T20:29:33.602 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:29:33.602 [Info] Function completed (Success, Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033, Duration=12ms)
+2018-09-20T20:31:26.485 [Info] Function started (Id=bcc1bd05-fe4e-404d-a595-26d27a828848)
+2018-09-20T20:31:26.704 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:31:26.704 [Info] Function completed (Success, Id=bcc1bd05-fe4e-404d-a595-26d27a828848, Duration=220ms)
+2018-09-20T20:31:47.776 [Info] Function started (Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3)
+2018-09-20T20:31:47.807 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:31:47.807 [Info] Function completed (Success, Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3, Duration=33ms)
+2018-09-20T20:32:07.440 [Info] Function started (Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95)
+2018-09-20T20:32:07.596 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:32:07.596 [Info] Function completed (Success, Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95, Duration=158ms)
+2018-09-20T20:32:48.606 [Info] Function started (Id=b7de558c-975d-42f0-aa18-91a86fcd3a82)
+2018-09-20T20:32:48.638 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:32:48.638 [Info] Function completed (Success, Id=b7de558c-975d-42f0-aa18-91a86fcd3a82, Duration=32ms)
+2018-09-20T20:36:14.450 [Info] Function started (Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf)
+2018-09-20T20:36:14.528 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:36:14.528 [Info] Function completed (Success, Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf, Duration=75ms)
+2018-09-20T20:38:29.440 [Info] Function started (Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69)
+2018-09-20T20:38:29.533 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:38:29.533 [Info] Function completed (Success, Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69, Duration=97ms)
+2018-09-20T20:42:02.125 [Info] Function started (Id=4e34576e-f32e-4cec-b41d-294eb0846c09)
+2018-09-20T20:42:02.578 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:42:02.594 [Info] Function completed (Success, Id=4e34576e-f32e-4cec-b41d-294eb0846c09, Duration=467ms)
+2018-09-20T20:47:09.368 [Info] Function started (Id=772ca974-999a-47ac-9067-e99870139764)
+2018-09-20T20:47:09.462 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:47:09.462 [Info] Function completed (Success, Id=772ca974-999a-47ac-9067-e99870139764, Duration=98ms)
+2018-09-20T20:47:42.652 [Info] Function started (Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789)
+2018-09-20T20:47:42.715 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:47:42.715 [Info] Function completed (Success, Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789, Duration=60ms)
+2018-09-20T20:48:41.338 [Info] Script for function 'GetRatings' changed. Reloading.
+2018-09-20T20:48:43.405 [Info] Function started (Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0)
+2018-09-20T20:48:43.561 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:48:43.561 [Info] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { connection: 'Keep-Alive',
+     accept: 'application/json, text/plain, */*',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Mzc0NzY1MjMsImV4cCI6MTUzNzQ3NjgyMywiaWF0IjoxNTM3NDc2NTIzLCJpc3MiOiJodHRwczovL3Bya2Z1bmFwcC5zY20uYXp1cmV3ZWJzaXRlcy5uZXQiLCJhdWQiOiJodHRwczovL3Bya2Z1bmFwcC5henVyZXdlYnNpdGVzLm5ldC9henVyZWZ1bmN0aW9ucyJ9.m-CywDkKVC4suZ-ZqjcLl-YB8pNKdTx5qf-KnuOnHYY',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     referer: 'https://functions.azure.com/ng-min/resources/subscriptions/51da105c-0b77-42ed-bfb5-277d4bf7184a/resourcegroups/prkcosmosrg/sites/prkfunapp/functions/getratings?correlationId=1a42975d-9da3&appsvc.bladetype=appblade&trustedAuthority=https:%2F%2Fportal.azure.com',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     origin: 'https://functions.azure.com',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.40.158:54946',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '91cae366-c997-4983-b999-95de263ee461',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:30240',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-type': 'application/json',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T20:48:43.561 [Info] Function completed (Success, Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0, Duration=156ms)
+2018-09-20T20:56:06.934 [Info] Function started (Id=470792b9-309b-43a8-b356-65d0157b0101)
+2018-09-20T20:56:07.012 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:56:07.012 [Info] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'max-age=0',
+     connection: 'Keep-Alive',
+     accept: 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'upgrade-insecure-requests': '1',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.52.70:30360',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '15c74aa2-95be-4779-a94d-3f901fb98034',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:27047',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T20:56:07.012 [Info] Function completed (Success, Id=470792b9-309b-43a8-b356-65d0157b0101, Duration=83ms)
+2018-09-20T20:56:36.691 [Info] Function started (Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4)
+2018-09-20T20:56:36.738 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:56:36.769 [Info] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}',
+  method: 'GET',
+  query: {},
+  headers: 
+   { connection: 'Keep-Alive',
+     accept: 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'upgrade-insecure-requests': '1',
+     'x-waws-unencoded-url': '/api/GetRatings/%7B%22userid%22:%22cc20a6fb-a91f-4192-874d-132493685376%22%7D',
+     'client-ip': '10.72.52.70:30360',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': 'cfff649a-fca3-40e3-895c-9bade7281c67',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}',
+     'x-forwarded-for': '131.107.160.107:27047',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: '{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}' } }
+2018-09-20T20:56:36.769 [Info] Function completed (Success, Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4, Duration=71ms)
+2018-09-20T21:00:56.926 [Info] Function started (Id=120300d9-085e-4196-8c0d-b5cd12965784)
+2018-09-20T21:00:56.973 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T21:00:56.973 [Info] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/{"cc20a6fb-a91f-4192-874d-132493685376"}',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'no-cache',
+     connection: 'Keep-Alive',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'PostmanRuntime/7.3.0',
+     'postman-token': 'ebdd6a59-54cb-4a23-8735-95351d6517f5',
+     'x-waws-unencoded-url': '/api/GetRatings/%7B%22cc20a6fb-a91f-4192-874d-132493685376%22%7D',
+     'client-ip': '10.72.40.158:54149',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '08a7d24b-795b-413f-8ef5-59b30fe8f4bb',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/{"cc20a6fb-a91f-4192-874d-132493685376"}',
+     'x-forwarded-for': '131.107.160.107:31954',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: '{"cc20a6fb-a91f-4192-874d-132493685376"}' } }
+2018-09-20T21:00:56.973 [Info] Function completed (Success, Id=120300d9-085e-4196-8c0d-b5cd12965784, Duration=35ms)
+2018-09-20T21:01:26.838 [Info] Function started (Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9)
+2018-09-20T21:01:27.260 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T21:01:27.276 [Info] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'no-cache',
+     connection: 'Keep-Alive',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '8',
+     'user-agent': 'PostmanRuntime/7.3.0',
+     'postman-token': '451bcd89-6a0f-4511-832b-efe582b50af3',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.40.158:54149',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '129bd3c4-3c3b-4cfe-a282-be761bbbbc27',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:31954, 131.107.160.107',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'x-ms-coldstart': '1',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T21:01:27.292 [Info] Function completed (Success, Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9, Duration=444ms)

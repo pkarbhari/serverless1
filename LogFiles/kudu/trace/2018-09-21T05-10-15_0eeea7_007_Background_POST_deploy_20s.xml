@@ -1,0 +1,31 @@
+<step title="BackgroundTrace" date="2018-09-21T05:10:15.595" instance="0eeea7" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2018-09-21T05:10:15.626" /><!-- duration: 125ms -->
+  <step title="Performing fetch based deployment" date="2018-09-21T05:10:15.766" >
+    <step title="DeploymentManager.Deploy(id:6444e5e3577dda301cd8122588fdbeb5fec9904c)" date="2018-09-21T05:10:16.657" >
+      <step title="Collecting changeset information" date="2018-09-21T05:10:16.829" /><!-- duration: 234ms -->
+      <step title="Updating submodules" date="2018-09-21T05:10:17.313" /><!-- duration: 219ms -->
+      <step title="Determining deployment builder" date="2018-09-21T05:10:18.548" >
+        <step title="Builder is FunctionBasicBuilder" date="2018-09-21T05:10:18.595" /><!-- duration: 16ms -->
+      </step><!-- duration: 94ms -->
+      <step title="Copying SSH keys" date="2018-09-21T05:10:18.766" /><!-- duration: 16ms -->
+      <step title="Building" date="2018-09-21T05:10:18.813" >
+        <step title="Generating deployment script" date="2018-09-21T05:10:19.032" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --functionApp --sitePath &quot;D:\home\site\repository&quot;" date="2018-09-21T05:10:19.192" /><!-- duration: 12ms -->
+        </step><!-- duration: 250ms -->
+        <step title="Executing external process" date="2018-09-21T05:10:19.595" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 12281ms -->
+        <step title="Syncing httpTrigger of CreateRating" date="2018-09-21T05:10:32.204" /><!-- duration: 16ms -->
+        <step title="Skipping http of CreateRating" date="2018-09-21T05:10:32.251" /><!-- duration: 47ms -->
+        <step title="Skipping documentDB of CreateRating" date="2018-09-21T05:10:32.329" /><!-- duration: 16ms -->
+        <step title="Skipping documentDB of CreateRating" date="2018-09-21T05:10:32.376" /><!-- duration: 31ms -->
+        <step title="Syncing httpTrigger of GetRatings" date="2018-09-21T05:10:32.470" /><!-- duration: 31ms -->
+        <step title="Skipping http of GetRatings" date="2018-09-21T05:10:32.532" /><!-- duration: 16ms -->
+        <step title="Skipping documentDB of GetRatings" date="2018-09-21T05:10:32.579" /><!-- duration: 16ms -->
+        <step title="Begin HttpPost https://prkfunapp.scm.azurewebsites.net/operations/settriggers, x-ms-request-id: ad9ded40-e5b5-4887-add2-8a5ee29a10f7" date="2018-09-21T05:10:32.626" /><!-- duration: 31ms -->
+        <step title="End HttpPost, status: OK" date="2018-09-21T05:10:33.945" /><!-- duration: 31ms -->
+        <step title="Syncing 2 function triggers with payload size 261 bytes successful." date="2018-09-21T05:10:34.195" /><!-- duration: 16ms -->
+      </step><!-- duration: 16085ms -->
+    </step><!-- duration: 18272ms -->
+    <step title="Cleaning up temp files" date="2018-09-21T05:10:34.945" /><!-- duration: 31ms -->
+    <step title="WebHooksManager.PublishEventAsync: PostDeployment" date="2018-09-21T05:10:35.070" /><!-- duration: 78ms -->
+  </step><!-- duration: 19522ms -->
+</step><!-- duration: 19803ms -->

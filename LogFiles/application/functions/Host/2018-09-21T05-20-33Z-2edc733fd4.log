@@ -1,0 +1,103 @@
+2018-09-21T05:20:32.280 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-21T05:20:32.468 [Info] Host configuration file read:
+{}
+2018-09-21T05:20:32.468 [Verbose] Host configuration applied.
+2018-09-21T05:20:32.468 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=e8fbe479-3352-4900-aa35-53c471265638, ProcessId=7876, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-21T05:20:32.483 [Verbose] Debug file watch initialized.
+2018-09-21T05:20:32.499 [Verbose] File event source initialized.
+2018-09-21T05:20:32.530 [Verbose] Function metadata read.
+2018-09-21T05:20:32.530 [Verbose] Binding providers loaded.
+2018-09-21T05:20:32.530 [Verbose] Binding providers initialized.
+2018-09-21T05:20:32.530 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-21T05:20:32.530 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-21T05:20:32.530 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-21T05:20:32.530 [Verbose] Extension loading complete.
+2018-09-21T05:20:32.671 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-21T05:20:32.733 [Verbose] Metadata provider created.
+2018-09-21T05:20:32.733 [Verbose] Function descriptors read.
+2018-09-21T05:20:32.733 [Info] Generating 2 job function(s)
+2018-09-21T05:20:32.750 [Verbose] Development settings applied
+2018-09-21T05:20:32.750 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-21T05:20:32.750 [Info] Host initialized (542ms)
+2018-09-21T05:20:32.973 [Info] Host started (758ms)
+2018-09-21T05:20:32.973 [Info] Job host started
+2018-09-21T05:20:32.989 [Info] Host lock lease acquired by instance ID '2edc733fd438ca256ed3cff130133f06'.
+2018-09-21T05:20:35.783 [Info] Executing HTTP request: {
+  "requestId": "69b32ad4-27bf-46f8-b958-7b512968d95a",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-21T05:20:35.783 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-21T05:20:35.783 [Info] Executed HTTP request: {
+  "requestId": "69b32ad4-27bf-46f8-b958-7b512968d95a",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-21T05:20:35.861 [Info] Executing HTTP request: {
+  "requestId": "7b89f643-0a2a-4ab8-bf99-11f77ea1fd54",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-21T05:20:35.911 [Info] Executed HTTP request: {
+  "requestId": "7b89f643-0a2a-4ab8-bf99-11f77ea1fd54",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-21T05:20:35.976 [Info] Executing HTTP request: {
+  "requestId": "d9fa9145-ceec-4713-8921-0778f3785496",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-21T05:20:35.989 [Info] Executed HTTP request: {
+  "requestId": "d9fa9145-ceec-4713-8921-0778f3785496",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-21T05:20:36.442 [Info] Executing HTTP request: {
+  "requestId": "f602fd95-b682-41b0-ab42-32e4e632a900",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-21T05:20:36.459 [Info] Executing HTTP request: {
+  "requestId": "7ad15b2b-95b8-4abb-a672-b37144ca45e3",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-21T05:20:36.459 [Info] Executed HTTP request: {
+  "requestId": "7ad15b2b-95b8-4abb-a672-b37144ca45e3",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-21T05:20:36.473 [Info] Executing HTTP request: {
+  "requestId": "a24756d7-1cc6-49b2-8bf7-e425993c1bc5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-21T05:20:36.473 [Info] Executed HTTP request: {
+  "requestId": "a24756d7-1cc6-49b2-8bf7-e425993c1bc5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-21T05:20:36.551 [Info] Executed HTTP request: {
+  "requestId": "f602fd95-b682-41b0-ab42-32e4e632a900",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}

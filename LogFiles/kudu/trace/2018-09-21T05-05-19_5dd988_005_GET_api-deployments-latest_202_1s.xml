@@ -1,0 +1,9 @@
+<step title="Incoming Request" date="2018-09-21T05:05:19.317" instance="5dd988" url="/api/deployments/latest?deployer=GitHub&amp;time=2018-09-21_05-05-18Z" method="GET" type="request" pid="2448,2,6" Connection="Keep-Alive" Authorization="Bas..." Host="prkfunapp.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/77.0.8598.30" x-ms-request-id="b564fee8-5f96-45ce-b514-b226cbe50492" X-WAWS-Unencoded-URL="/api/deployments/latest?deployer=GitHub&amp;time=2018-09-21_05-05-18Z" CLIENT-IP="138.91.225.40:43600" IS-SERVICE-TUNNELED="0" X-ARR-LOG-ID="b564fee8-5f96-45ce-b514-b226cbe50492" X-SITE-DEPLOYMENT-ID="prkfunapp" WAS-DEFAULT-HOSTNAME="prkfunapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
+  <step title="DeploymentService.GetResult" date="2018-09-21T05:05:19.395" >
+    <step title="DeploymentService.GetLatestDeployment" date="2018-09-21T05:05:19.411" >
+      <step title="DeploymentManager.GetResults" date="2018-09-21T05:05:19.458" /><!-- duration: 282ms -->
+      <step title="Deployment temp-fbe67a4e is Pending" date="2018-09-21T05:05:19.786" /><!-- duration: 31ms -->
+    </step><!-- duration: 453ms -->
+  </step><!-- duration: 484ms -->
+  <step title="Outgoing response" date="2018-09-21T05:05:20.024" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" x-ms-request-id="b564fee8-5f96-45ce-b514-b226cbe50492" Cache-Control="private" X-AspNet-Version="4.0.30319" Location="https://prkfunapp.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2018-09-21_05-05-18Z" Content-Type="application/json; charset=utf-8" /><!-- duration: 47ms -->
+</step><!-- duration: 801ms -->

@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2018-09-20T08:35:59.994" instance="ce2017" url="/api/commandstream/reconnect?transport=serverSentEvents&amp;messageId=d-BA177364-A%2C0%7CB%2C64%7CC%2C0&amp;clientProtocol=1.4&amp;shell=CMD&amp;connectionToken=%2BKQ78%2BMOeqvCXG1%2FBgJRS0VfUyPAQpeBBSpDcrVLRcCWXm7bbPdUk63wRvQCdwHpA8a2niIfq1SY7OVDldirHZUu1WVDXeVtg%2FnyDr4ZGoRqxaqrhux%2Bup2AW96L3liv&amp;tid=4" method="GET" type="request" pid="3144,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
+  <step title="Cleanup Xml Logs" date="2018-09-20T08:36:00.165" /><!-- duration: 31ms -->
+</step><!-- duration: 234ms -->

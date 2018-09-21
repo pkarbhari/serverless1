@@ -1,0 +1,6 @@
+2018-09-20T20:06:29.880 [Info] Function started (Id=07f1de4a-de67-498c-a4ee-a4dee9070c63)
+2018-09-20T20:07:04.945 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:07:04.945 [Info] user cc20a6fb-a91f-4192-874d-132493685376, product 4c25613a-a3c2-4ef3-8e02-9c335eb23204
+2018-09-20T20:07:05.523 [Info] { userId: 'cc20a6fb-a91f-4192-874d-132493685376',
+  userName: 'doreen.riddle',
+  fullName: 'Doreen Riddle' }

@@ -1,0 +1,16 @@
+<step title="Incoming Request" date="2018-09-21T05:24:14.632" instance="2edc73" url="/prkfunapp.git/info/refs?service=git-upload-pack" method="GET" type="request" pid="7572,2,9" Connection="Keep-Alive" Pragma="no-cache" Accept="*/*" Accept-Encoding="deflate, gzip" Authorization="Bas..." Host="prkfunapp.scm.azurewebsites.net" User-Agent="git/2.18.0.windows.1" X-WAWS-Unencoded-URL="/prkfunapp.git/info/refs?service=git-upload-pack" CLIENT-IP="24.17.60.203:53925" IS-SERVICE-TUNNELED="0" X-ARR-LOG-ID="ef884372-7a45-41df-9c56-f2f663cd0a8f" X-SITE-DEPLOYMENT-ID="prkfunapp" WAS-DEFAULT-HOSTNAME="prkfunapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
+  <step title="Cleanup Xml Logs" date="2018-09-21T05:24:16.565" /><!-- duration: 75ms -->
+  <step title="InfoRefsService.Execute" date="2018-09-21T05:24:16.686" >
+    <step title="Assuming git repository at D:\home\site\repository" date="2018-09-21T05:24:17.030" /><!-- duration: 16ms -->
+    <step title="InfoRefsService.SmartInfoRefs" date="2018-09-21T05:24:17.061" >
+      <step title="Assuming git repository at D:\home\site\repository" date="2018-09-21T05:24:17.202" /><!-- duration: 31ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2018-09-21T05:24:17.520" /><!-- duration: 31ms -->
+      <step title="Assuming git repository at D:\home\site\repository" date="2018-09-21T05:24:17.598" /><!-- duration: 31ms -->
+      <step title="GitExeServer.AdvertiseUploadPack" date="2018-09-21T05:24:17.645" >
+        <step title="Executing external process" date="2018-09-21T05:24:17.676" type="process" path="git.exe" arguments="upload-pack --stateless-rpc --advertise-refs &quot;D:\home\site\repository&quot;" /><!-- duration: 1445ms -->
+      </step><!-- duration: 1507ms -->
+      <step title="Writing 433 bytes" date="2018-09-21T05:24:19.167" /><!-- duration: 31ms -->
+    </step><!-- duration: 2168ms -->
+  </step><!-- duration: 2559ms -->
+  <step title="Outgoing response" date="2018-09-21T05:24:19.292" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/10.0" x-ms-request-id="ef884372-7a45-41df-9c56-f2f663cd0a8f" Pragma="no-cache" Cache-Control="must-revalidate, no-cache, max-age=0" Expires="Tue, 01 Jan 1980 00:00:00 GMT" Content-Length="433" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-upload-pack-advertisement" /><!-- duration: 31ms -->
+</step><!-- duration: 4707ms -->

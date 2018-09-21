@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2018-09-20T21:04:22.890" instance="7b9781" url="/api/logstream/application/functions/structured" method="GET" type="request" pid="4580,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
+  <step title="Cleanup Xml Logs" date="2018-09-20T21:04:22.937" /><!-- duration: 31ms -->
+</step><!-- duration: 94ms -->

@@ -1,0 +1,6 @@
+<step title="BackgroundTrace" date="2018-09-20T04:41:15.120" instance="c21ead" url="/api/functions/synctriggers" method="POST" >
+  <step title="Cleanup Xml Logs" date="2018-09-20T04:41:15.154" /><!-- duration: 30ms -->
+  <step title="Begin HttpPost https://prkfunapp.scm.azurewebsites.net/operations/settriggers, x-ms-request-id: cda4a4e4-641e-46f0-88b4-f1f39d5a2f91" date="2018-09-20T04:41:15.324" /><!-- duration: 16ms -->
+  <step title="End HttpPost, status: OK" date="2018-09-20T04:41:17.265" /><!-- duration: 16ms -->
+  <step title="Syncing 0 function triggers with payload size 2 bytes successful." date="2018-09-20T04:41:17.311" /><!-- duration: 16ms -->
+</step><!-- duration: 2238ms -->

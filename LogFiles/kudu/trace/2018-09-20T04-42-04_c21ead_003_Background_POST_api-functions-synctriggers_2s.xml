@@ -1,0 +1,8 @@
+<step title="BackgroundTrace" date="2018-09-20T04:42:04.855" instance="c21ead" url="/api/functions/synctriggers" method="POST" >
+  <step title="Cleanup Xml Logs" date="2018-09-20T04:42:04.886" /><!-- duration: 63ms -->
+  <step title="Syncing httpTrigger of CreateRating" date="2018-09-20T04:42:05.058" /><!-- duration: 47ms -->
+  <step title="Skipping http of CreateRating" date="2018-09-20T04:42:05.121" /><!-- duration: 31ms -->
+  <step title="Begin HttpPost https://prkfunapp.scm.azurewebsites.net/operations/settriggers, x-ms-request-id: 73f8b2bd-ab99-4003-9f1e-5b1e7c035f89" date="2018-09-20T04:42:05.183" /><!-- duration: 16ms -->
+  <step title="End HttpPost, status: OK" date="2018-09-20T04:42:06.402" /><!-- duration: 16ms -->
+  <step title="Syncing 1 function triggers with payload size 108 bytes successful." date="2018-09-20T04:42:06.433" /><!-- duration: 31ms -->
+</step><!-- duration: 1625ms -->

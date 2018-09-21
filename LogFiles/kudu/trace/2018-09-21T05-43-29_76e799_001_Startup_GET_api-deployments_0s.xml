@@ -1,0 +1,3 @@
+<step title="Startup Request" date="2018-09-21T05:43:29.042" instance="76e799" url="/api/deployments/?api-version=2015-08-01" method="GET" type="request" pid="3820,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="LocalGit" >
+  <step title="Cleanup Xml Logs" date="2018-09-21T05:43:29.105" /><!-- duration: 65ms -->
+</step><!-- duration: 156ms -->

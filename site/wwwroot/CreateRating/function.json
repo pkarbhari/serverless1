@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "documentDB",
+      "name": "ratingDocument",
+      "databaseName": "soft-serverless",
+      "collectionName": "rating",
+      "createIfNotExists": true,
+      "connection": "prkcosmosdb_DOCUMENTDB",
+      "direction": "in"
+    },
+    {
+      "type": "documentDB",
+      "name": "ratingDocuments",
+      "databaseName": "soft-serverless",
+      "collectionName": "rating",
+      "createIfNotExists": true,
+      "partitionKey": "/userId",
+      "connection": "prkcosmosdb_DOCUMENTDB",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

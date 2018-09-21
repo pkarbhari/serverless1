@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>6444e5e3577dda301cd8122588fdbeb5fec9904c</id>
+  <author>pkarbhari</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>karbhari@writeme.com</authorEmail>
+  <message>Initial commit</message>
+  <progress></progress>
+  <status>Failed</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2018-09-21T05:10:34.4920032Z</lastSuccessEndTime>
+  <receivedTime>2018-09-21T05:05:24.0692169Z</receivedTime>
+  <startTime>2018-09-21T05:13:31.3979193Z</startTime>
+  <endTime>2018-09-21T05:13:37.3355079Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

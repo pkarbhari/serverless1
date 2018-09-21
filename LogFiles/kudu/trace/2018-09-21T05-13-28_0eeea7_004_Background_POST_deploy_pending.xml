@@ -1,0 +1,15 @@
+<step title="BackgroundTrace" date="2018-09-21T05:13:28.594" instance="0eeea7" url="/deploy" method="POST" >
+  <step title="Creating temporary deployment" date="2018-09-21T05:13:28.688" /><!-- duration: 141ms -->
+  <step title="Performing fetch based deployment" date="2018-09-21T05:13:28.844" >
+    <step title="DeploymentManager.Deploy(id:6444e5e3577dda301cd8122588fdbeb5fec9904c)" date="2018-09-21T05:13:30.022" >
+      <step title="Collecting changeset information" date="2018-09-21T05:13:30.100" /><!-- duration: 282ms -->
+      <step title="Updating submodules" date="2018-09-21T05:13:30.616" /><!-- duration: 359ms -->
+      <step title="Determining deployment builder" date="2018-09-21T05:13:31.522" >
+        <step title="Builder is FunctionBasicBuilder" date="2018-09-21T05:13:31.601" /><!-- duration: 16ms -->
+      </step><!-- duration: 297ms -->
+      <step title="Copying SSH keys" date="2018-09-21T05:13:31.944" /><!-- duration: 125ms -->
+      <step title="Building" date="2018-09-21T05:13:32.101" >
+        <step title="Generating deployment script" date="2018-09-21T05:13:32.397" >
+          <step title="Using cached version of the deployment script for command: -y --no-dot-deployment -r &quot;D:\home\site\repository&quot; -o &quot;D:\home\site\deployments\tools&quot; --functionApp --sitePath &quot;D:\home\site\repository&quot;" date="2018-09-21T05:13:32.491" /><!-- duration: 16ms -->
+        </step><!-- duration: 203ms -->
+        <step title="Executing external process" date="2018-09-21T05:13:32.963" type="process" path="starter.cmd" arguments="&quot;D:\home\site\deployments\tools\deploy.cmd&quot;" /><!-- duration: 904ms -->

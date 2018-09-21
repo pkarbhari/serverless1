@@ -1,0 +1,2 @@
+77.10830.3542.0
+-y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --functionApp --sitePath "D:\home\site\repository"

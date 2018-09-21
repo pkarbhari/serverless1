@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>temp-c33f0f37</id>
+  <author>N/A</author>
+  <deployer>GitHub</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>Fetch from https://github.com/pkarbhari/serverless1.git</message>
+  <progress></progress>
+  <status>Failed</status>
+  <statusText></statusText>
+  <lastSuccessEndTime />
+  <receivedTime>2018-09-21T05:13:28.71996Z</receivedTime>
+  <startTime>2018-09-21T05:13:28.71996Z</startTime>
+  <endTime>2018-09-21T05:13:37.8198909Z</endTime>
+  <complete>True</complete>
+  <is_temp>True</is_temp>
+  <is_readonly>False</is_readonly>
+</deployment>

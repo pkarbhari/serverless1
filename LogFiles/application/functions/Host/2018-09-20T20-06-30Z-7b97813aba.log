@@ -1,0 +1,2088 @@
+2018-09-20T20:06:29.755 [Info] Host configuration file read:
+{}
+2018-09-20T20:06:29.755 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=1b21f00e-bc75-4f1a-9cc8-1b0b20c9e469, ProcessId=2872, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-20T20:06:29.786 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:06:29.786 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:06:29.786 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:06:29.786 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:06:29.817 [Info] Generating 1 job function(s)
+2018-09-20T20:06:29.833 [Info] Found the following functions:
+Host.Functions.CreateRating
+2018-09-20T20:06:29.833 [Info] Host initialized (1104ms)
+2018-09-20T20:06:29.880 [Info,CreateRating] Function started (Id=07f1de4a-de67-498c-a4ee-a4dee9070c63)
+2018-09-20T20:06:29.895 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=07f1de4a-de67-498c-a4ee-a4dee9070c63)
+2018-09-20T20:06:30.052 [Info] Host started (1320ms)
+2018-09-20T20:06:30.052 [Info] Job host started
+2018-09-20T20:06:30.067 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:06:30.067 [Info] Executing HTTP request: {
+  "requestId": "f3c727d1-f04b-4c08-bba6-3c5d45882c99",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:06:30.085 [Info] Executed HTTP request: {
+  "requestId": "f3c727d1-f04b-4c08-bba6-3c5d45882c99",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:06:30.085 [Info] Executing HTTP request: {
+  "requestId": "00084319-5228-4d5c-ae2f-cc92f47c8e93",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:06:30.085 [Info] Executed HTTP request: {
+  "requestId": "00084319-5228-4d5c-ae2f-cc92f47c8e93",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:06:30.098 [Info] Executing HTTP request: {
+  "requestId": "594f537c-4ef3-4a56-8171-a71d5c734ae6",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T20:06:30.161 [Info] Executed HTTP request: {
+  "requestId": "594f537c-4ef3-4a56-8171-a71d5c734ae6",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:07:04.945 [Info,CreateRating] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:07:04.945 [Info,CreateRating] user cc20a6fb-a91f-4192-874d-132493685376, product 4c25613a-a3c2-4ef3-8e02-9c335eb23204
+2018-09-20T20:07:05.523 [Info,CreateRating] { userId: 'cc20a6fb-a91f-4192-874d-132493685376',
+  userName: 'doreen.riddle',
+  fullName: 'Doreen Riddle' }
+2018-09-20T20:13:47.934 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:13:47.950 [Info] Host configuration file read:
+{}
+2018-09-20T20:13:47.950 [Verbose] Host configuration applied.
+2018-09-20T20:13:47.950 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=c08647a0-b23a-4f6c-a0ca-1f19b9718a4d, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-20T20:13:47.950 [Verbose] Debug file watch initialized.
+2018-09-20T20:13:47.950 [Verbose] File event source initialized.
+2018-09-20T20:13:47.981 [Verbose] Function metadata read.
+2018-09-20T20:13:47.981 [Verbose] Binding providers loaded.
+2018-09-20T20:13:47.981 [Verbose] Binding providers initialized.
+2018-09-20T20:13:47.981 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:13:47.981 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:13:47.981 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:13:47.981 [Verbose] Extension loading complete.
+2018-09-20T20:13:48.028 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:13:48.091 [Verbose] Metadata provider created.
+2018-09-20T20:13:48.091 [Verbose] Function descriptors read.
+2018-09-20T20:13:48.091 [Info] Generating 2 job function(s)
+2018-09-20T20:13:48.106 [Verbose] Development settings applied
+2018-09-20T20:13:48.106 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:13:48.106 [Info] Host initialized (344ms)
+2018-09-20T20:13:48.325 [Info] Host started (553ms)
+2018-09-20T20:13:48.325 [Info] Job host started
+2018-09-20T20:13:48.388 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:13:48.453 [Info] Executing HTTP request: {
+  "requestId": "ad741a75-b6b5-4956-92ef-0b90f285c7d8",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:13:48.466 [Info] Executing HTTP request: {
+  "requestId": "fec9bea6-0efb-4d5f-b709-be35371a2ab2",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:13:48.466 [Info] Executed HTTP request: {
+  "requestId": "fec9bea6-0efb-4d5f-b709-be35371a2ab2",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:13:48.513 [Info] Executing HTTP request: {
+  "requestId": "e97e1ae6-fe06-47a2-96cc-1cd8929c39a5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:13:48.513 [Info] Executed HTTP request: {
+  "requestId": "e97e1ae6-fe06-47a2-96cc-1cd8929c39a5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:13:48.513 [Info] Executed HTTP request: {
+  "requestId": "ad741a75-b6b5-4956-92ef-0b90f285c7d8",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:16:00.828 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:00.828 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:00.841 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:00.841 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:00.857 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:00.857 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:01.372 [Info] Stopping Host
+2018-09-20T20:16:01.372 [Info] Job host stopped
+2018-09-20T20:16:01.669 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:16:02.248 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:16:02.248 [Info] Host configuration file read:
+{}
+2018-09-20T20:16:02.248 [Verbose] Host configuration applied.
+2018-09-20T20:16:02.248 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=518639c9-8937-487a-91ad-37145dc7c1d5, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=2, FunctionsExtensionVersion=~1)
+2018-09-20T20:16:02.264 [Verbose] Debug file watch initialized.
+2018-09-20T20:16:02.264 [Verbose] File event source initialized.
+2018-09-20T20:16:02.280 [Verbose] Function metadata read.
+2018-09-20T20:16:02.280 [Verbose] Binding providers loaded.
+2018-09-20T20:16:02.280 [Verbose] Binding providers initialized.
+2018-09-20T20:16:02.280 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:16:02.280 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:16:02.280 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:16:02.280 [Verbose] Extension loading complete.
+2018-09-20T20:16:02.295 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:16:02.342 [Verbose] Metadata provider created.
+2018-09-20T20:16:02.342 [Verbose] Function descriptors read.
+2018-09-20T20:16:02.342 [Info] Generating 2 job function(s)
+2018-09-20T20:16:02.373 [Verbose] Development settings applied
+2018-09-20T20:16:02.373 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:16:02.373 [Info] Host initialized (1001ms)
+2018-09-20T20:16:02.467 [Info] Host started (1097ms)
+2018-09-20T20:16:02.467 [Info] Job host started
+2018-09-20T20:16:02.483 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:16:49.327 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:49.327 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:49.343 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:49.343 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:49.343 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:16:49.343 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:16:49.844 [Info] Stopping Host
+2018-09-20T20:16:49.844 [Info] Job host stopped
+2018-09-20T20:16:49.859 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:16:49.879 [Info] Host configuration file read:
+{}
+2018-09-20T20:16:49.879 [Verbose] Host configuration applied.
+2018-09-20T20:16:49.879 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=c4b17fba-f2c2-4609-8a3e-5ea5ab082781, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=3, FunctionsExtensionVersion=~1)
+2018-09-20T20:16:49.879 [Verbose] Debug file watch initialized.
+2018-09-20T20:16:49.879 [Verbose] File event source initialized.
+2018-09-20T20:16:49.891 [Verbose] Function metadata read.
+2018-09-20T20:16:49.891 [Verbose] Binding providers loaded.
+2018-09-20T20:16:49.891 [Verbose] Binding providers initialized.
+2018-09-20T20:16:49.891 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:16:49.891 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:16:49.891 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:16:49.891 [Verbose] Extension loading complete.
+2018-09-20T20:16:49.908 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:16:49.953 [Verbose] Metadata provider created.
+2018-09-20T20:16:49.969 [Verbose] Function descriptors read.
+2018-09-20T20:16:49.969 [Info] Generating 2 job function(s)
+2018-09-20T20:16:49.984 [Verbose] Development settings applied
+2018-09-20T20:16:49.984 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:16:49.984 [Info] Host initialized (151ms)
+2018-09-20T20:16:50.031 [Info] Host started (187ms)
+2018-09-20T20:16:50.031 [Info] Job host started
+2018-09-20T20:16:50.094 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:16:50.062 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:18:21.827 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:18:21.827 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:18:21.874 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:18:21.874 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:18:21.889 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:18:21.889 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:18:22.389 [Info] Stopping Host
+2018-09-20T20:18:22.389 [Info] Job host stopped
+2018-09-20T20:18:22.483 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:18:23.405 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:18:23.420 [Info] Host configuration file read:
+{}
+2018-09-20T20:18:23.420 [Verbose] Host configuration applied.
+2018-09-20T20:18:23.420 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=9a432538-637e-4648-b866-034391fc18ef, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=4, FunctionsExtensionVersion=~1)
+2018-09-20T20:18:23.420 [Verbose] Debug file watch initialized.
+2018-09-20T20:18:23.420 [Verbose] File event source initialized.
+2018-09-20T20:18:23.514 [Verbose] Function metadata read.
+2018-09-20T20:18:23.514 [Verbose] Binding providers loaded.
+2018-09-20T20:18:23.514 [Verbose] Binding providers initialized.
+2018-09-20T20:18:23.514 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:18:23.514 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:18:23.514 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:18:23.514 [Verbose] Extension loading complete.
+2018-09-20T20:18:23.514 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:18:23.579 [Verbose] Metadata provider created.
+2018-09-20T20:18:23.579 [Verbose] Function descriptors read.
+2018-09-20T20:18:23.579 [Info] Generating 2 job function(s)
+2018-09-20T20:18:23.608 [Verbose] Development settings applied
+2018-09-20T20:18:23.608 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:18:23.608 [Info] Host initialized (1226ms)
+2018-09-20T20:18:23.655 [Info] Host started (1279ms)
+2018-09-20T20:18:23.655 [Info] Job host started
+2018-09-20T20:18:23.670 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:18:44.213 [Info] Executing HTTP request: {
+  "requestId": "67b0d806-63b4-4e8a-8ab8-e641b51d08dd",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:18:44.213 [Info] Executed HTTP request: {
+  "requestId": "67b0d806-63b4-4e8a-8ab8-e641b51d08dd",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:18:44.213 [Info] Executing HTTP request: {
+  "requestId": "b02a5fe0-9329-42b6-8d2c-9ad09a0517b4",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:18:44.213 [Info] Executing HTTP request: {
+  "requestId": "f3a13350-f1c8-4657-9006-c0b9358edf84",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:18:44.213 [Info] Executed HTTP request: {
+  "requestId": "f3a13350-f1c8-4657-9006-c0b9358edf84",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:18:44.229 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:18:44.229 [Info] Executed HTTP request: {
+  "requestId": "b02a5fe0-9329-42b6-8d2c-9ad09a0517b4",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:18:44.400 [Info] Executing HTTP request: {
+  "requestId": "a5daab0e-1393-4ce9-827a-666aecc6c8fe",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:18:44.400 [Info] Executed HTTP request: {
+  "requestId": "a5daab0e-1393-4ce9-827a-666aecc6c8fe",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:18:44.416 [Info] Executing HTTP request: {
+  "requestId": "e2de53e8-d8ff-44df-9a39-c563b415061e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:18:44.416 [Info] Executing HTTP request: {
+  "requestId": "48b9fee1-e838-4c5c-8fd5-897957ad047d",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:18:44.416 [Info] Executed HTTP request: {
+  "requestId": "48b9fee1-e838-4c5c-8fd5-897957ad047d",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:18:44.760 [Info] Executed HTTP request: {
+  "requestId": "e2de53e8-d8ff-44df-9a39-c563b415061e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:19:35.033 [Info] Executing HTTP request: {
+  "requestId": "ca4e7978-4282-4d6a-b6fc-0b83ff4dc0be",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:19:35.033 [Info,GetRatings] Function started (Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd)
+2018-09-20T20:19:35.049 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd)
+2018-09-20T20:19:35.611 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:19:35.627 [Info,GetRatings] Function completed (Success, Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd, Duration=585ms)
+2018-09-20T20:19:35.627 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=5bb77b37-bd44-4ed3-92fc-cb28211b04fd)
+2018-09-20T20:19:35.627 [Info] Executed HTTP request: {
+  "requestId": "ca4e7978-4282-4d6a-b6fc-0b83ff4dc0be",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "BadRequest"
+}
+2018-09-20T20:19:35.721 [Info] Executing HTTP request: {
+  "requestId": "03785031-049f-4d16-9104-f3ea6022cb53",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:19:35.721 [Info] Executed HTTP request: {
+  "requestId": "03785031-049f-4d16-9104-f3ea6022cb53",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:20:26.431 [Info,GetRatings] Script for function 'GetRatings' changed. Reloading.
+2018-09-20T20:20:37.858 [Info] Executing HTTP request: {
+  "requestId": "d2794837-a413-4583-ad64-3dca570c691e",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:20:37.858 [Info,GetRatings] Function started (Id=9643baac-a243-4be1-b5ae-84fe67948eb8)
+2018-09-20T20:20:37.858 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=9643baac-a243-4be1-b5ae-84fe67948eb8)
+2018-09-20T20:20:37.890 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:20:37.890 [Info,GetRatings] Function completed (Success, Id=9643baac-a243-4be1-b5ae-84fe67948eb8, Duration=35ms)
+2018-09-20T20:20:37.890 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=9643baac-a243-4be1-b5ae-84fe67948eb8)
+2018-09-20T20:20:37.890 [Info] Executed HTTP request: {
+  "requestId": "d2794837-a413-4583-ad64-3dca570c691e",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:22:13.761 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:22:13.761 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:22:13.761 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:22:13.761 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:22:13.776 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:22:13.776 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:22:14.277 [Info] Stopping Host
+2018-09-20T20:22:14.277 [Info] Job host stopped
+2018-09-20T20:22:14.480 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:22:15.042 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:22:15.042 [Info] Host configuration file read:
+{}
+2018-09-20T20:22:15.042 [Verbose] Host configuration applied.
+2018-09-20T20:22:15.042 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=b86da5ef-ea22-4029-94ac-925cff2cc932, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=5, FunctionsExtensionVersion=~1)
+2018-09-20T20:22:15.042 [Verbose] Debug file watch initialized.
+2018-09-20T20:22:15.042 [Verbose] File event source initialized.
+2018-09-20T20:22:15.120 [Verbose] Function metadata read.
+2018-09-20T20:22:15.120 [Verbose] Binding providers loaded.
+2018-09-20T20:22:15.120 [Verbose] Binding providers initialized.
+2018-09-20T20:22:15.120 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:22:15.120 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:22:15.120 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:22:15.120 [Verbose] Extension loading complete.
+2018-09-20T20:22:15.120 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:22:15.152 [Verbose] Metadata provider created.
+2018-09-20T20:22:15.167 [Verbose] Function descriptors read.
+2018-09-20T20:22:15.167 [Info] Generating 2 job function(s)
+2018-09-20T20:22:15.184 [Verbose] Development settings applied
+2018-09-20T20:22:15.184 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:22:15.184 [Info] Host initialized (909ms)
+2018-09-20T20:22:15.245 [Info] Host started (977ms)
+2018-09-20T20:22:15.245 [Info] Job host started
+2018-09-20T20:22:15.263 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:22:21.583 [Info] Executing HTTP request: {
+  "requestId": "46d5120c-567c-4e85-a03a-c4842c6e77fe",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:22:21.583 [Info] Executed HTTP request: {
+  "requestId": "46d5120c-567c-4e85-a03a-c4842c6e77fe",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:21.630 [Info] Executing HTTP request: {
+  "requestId": "b33fc19a-a2cb-48c5-967f-bc8a398d9c2c",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:22:21.630 [Info] Executing HTTP request: {
+  "requestId": "d92e00e9-99b5-4f00-bd05-978547b817b4",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:22:21.630 [Info] Executed HTTP request: {
+  "requestId": "d92e00e9-99b5-4f00-bd05-978547b817b4",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:21.662 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:22:21.662 [Info] Executed HTTP request: {
+  "requestId": "b33fc19a-a2cb-48c5-967f-bc8a398d9c2c",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:21.787 [Info] Executing HTTP request: {
+  "requestId": "fac329ab-8c0e-48a1-b5d5-fedc5ed246a3",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:22:21.787 [Info] Executed HTTP request: {
+  "requestId": "fac329ab-8c0e-48a1-b5d5-fedc5ed246a3",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:21.802 [Info] Executing HTTP request: {
+  "requestId": "dfbc5f58-9056-4929-be95-c5e0c359bb6a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:22:21.802 [Info] Executed HTTP request: {
+  "requestId": "dfbc5f58-9056-4929-be95-c5e0c359bb6a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:21.802 [Info] Executing HTTP request: {
+  "requestId": "5af914ad-5aa5-4655-85bf-65e4675219f1",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:22:21.802 [Info] Executed HTTP request: {
+  "requestId": "5af914ad-5aa5-4655-85bf-65e4675219f1",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:22:29.976 [Info] Executing HTTP request: {
+  "requestId": "1cdb5227-7aa9-4dcd-84f4-a233f080c328",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:22:29.976 [Info,GetRatings] Function started (Id=608777e3-5a31-497a-bacb-be464c05aa05)
+2018-09-20T20:22:29.976 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=608777e3-5a31-497a-bacb-be464c05aa05)
+2018-09-20T20:22:30.179 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:22:30.179 [Info,GetRatings] Function completed (Success, Id=608777e3-5a31-497a-bacb-be464c05aa05, Duration=194ms)
+2018-09-20T20:22:30.179 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=608777e3-5a31-497a-bacb-be464c05aa05)
+2018-09-20T20:22:30.179 [Info] Executed HTTP request: {
+  "requestId": "1cdb5227-7aa9-4dcd-84f4-a233f080c328",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:23:39.803 [Info] Executing HTTP request: {
+  "requestId": "6a6f6d06-8fe1-42b9-a49f-94964efed9a1",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:23:39.803 [Info] Executed HTTP request: {
+  "requestId": "6a6f6d06-8fe1-42b9-a49f-94964efed9a1",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:23:39.803 [Info] Executing HTTP request: {
+  "requestId": "93daf8f9-b863-4726-8f14-36c58a53c28f",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:23:39.803 [Info] Executed HTTP request: {
+  "requestId": "93daf8f9-b863-4726-8f14-36c58a53c28f",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:23:39.803 [Info] Executing HTTP request: {
+  "requestId": "2f41745c-c18c-4b1c-ab0b-b40ce01f5deb",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:23:39.865 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:23:39.865 [Info] Executed HTTP request: {
+  "requestId": "2f41745c-c18c-4b1c-ab0b-b40ce01f5deb",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:23:40.006 [Info] Executing HTTP request: {
+  "requestId": "d932a4d8-ca98-49f4-85f3-2994a187585b",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:23:40.006 [Info] Executing HTTP request: {
+  "requestId": "d0fc6034-2bb0-4d60-93ae-77062aac8340",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:23:40.006 [Info] Executed HTTP request: {
+  "requestId": "d0fc6034-2bb0-4d60-93ae-77062aac8340",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:23:40.006 [Info] Executed HTTP request: {
+  "requestId": "d932a4d8-ca98-49f4-85f3-2994a187585b",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:23:40.006 [Info] Executing HTTP request: {
+  "requestId": "4dab46c7-b2cd-4b7f-83d1-a6fee03c1b18",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:23:40.006 [Info] Executed HTTP request: {
+  "requestId": "4dab46c7-b2cd-4b7f-83d1-a6fee03c1b18",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:24:50.108 [Info] Executing HTTP request: {
+  "requestId": "7509c940-0a9f-4d0d-bac2-860a7a8212de",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:24:50.108 [Info,GetRatings] Function started (Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9)
+2018-09-20T20:24:50.108 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9)
+2018-09-20T20:24:50.264 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:24:50.264 [Info,GetRatings] Function completed (Success, Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9, Duration=145ms)
+2018-09-20T20:24:50.264 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=3c7b9021-6aaf-438a-99ef-d831ab1379a9)
+2018-09-20T20:24:50.264 [Info] Executed HTTP request: {
+  "requestId": "7509c940-0a9f-4d0d-bac2-860a7a8212de",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:24:50.404 [Error] {"id":"f80ff030-f11e-46ec-be9d-a3654822186d","requestId":"7509c940-0a9f-4d0d-bac2-860a7a8212de","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID f80ff030-f11e-46ec-be9d-a3654822186d"}
+2018-09-20T20:24:50.404 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:24:50.657 [Info] Executing HTTP request: {
+  "requestId": "403359df-4078-4b34-86b4-5c75e36aa2b1",
+  "method": "GET",
+  "uri": "/favicon.ico"
+}
+2018-09-20T20:24:50.657 [Info] Executed HTTP request: {
+  "requestId": "403359df-4078-4b34-86b4-5c75e36aa2b1",
+  "method": "GET",
+  "uri": "/favicon.ico",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:25:18.850 [Info] Executing HTTP request: {
+  "requestId": "d006bb27-68bd-492e-bc09-aa81f5199560",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:25:18.850 [Info] Executed HTTP request: {
+  "requestId": "d006bb27-68bd-492e-bc09-aa81f5199560",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:25:21.608 [Info] Executing HTTP request: {
+  "requestId": "f0aa1b9b-3126-4a58-87cf-c0a9d79fad3f",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:25:21.608 [Info] Executed HTTP request: {
+  "requestId": "f0aa1b9b-3126-4a58-87cf-c0a9d79fad3f",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:25:43.107 [Info] Executing HTTP request: {
+  "requestId": "61a51fe5-0b15-4228-8174-6d18c26462db",
+  "method": "GET",
+  "uri": "/api/GetRatings/userid=cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:25:43.107 [Info,GetRatings] Function started (Id=9d9cf076-8ee0-47ac-a48e-853d18af2038)
+2018-09-20T20:25:43.107 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=9d9cf076-8ee0-47ac-a48e-853d18af2038)
+2018-09-20T20:25:43.139 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:25:43.139 [Info,GetRatings] Function completed (Success, Id=9d9cf076-8ee0-47ac-a48e-853d18af2038, Duration=31ms)
+2018-09-20T20:25:43.139 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=9d9cf076-8ee0-47ac-a48e-853d18af2038)
+2018-09-20T20:25:43.139 [Info] Executed HTTP request: {
+  "requestId": "61a51fe5-0b15-4228-8174-6d18c26462db",
+  "method": "GET",
+  "uri": "/api/GetRatings/userid=cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:25:43.139 [Error] {"id":"c5708b2c-80a6-4534-86b1-b44fcd77f892","requestId":"61a51fe5-0b15-4228-8174-6d18c26462db","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID c5708b2c-80a6-4534-86b1-b44fcd77f892"}
+2018-09-20T20:25:43.139 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:25:58.860 [Info] Executing HTTP request: {
+  "requestId": "0ce1c323-ca58-4212-ad89-68696b3be2e0",
+  "method": "GET",
+  "uri": "/api/GetRatings/\"cc20a6fb-a91f-4192-874d-132493685376\""
+}
+2018-09-20T20:25:58.860 [Info,GetRatings] Function started (Id=4dda5368-e402-4aed-a291-0b9f66031816)
+2018-09-20T20:25:58.860 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=4dda5368-e402-4aed-a291-0b9f66031816)
+2018-09-20T20:25:58.907 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:25:58.907 [Info,GetRatings] Function completed (Success, Id=4dda5368-e402-4aed-a291-0b9f66031816, Duration=36ms)
+2018-09-20T20:25:58.907 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=4dda5368-e402-4aed-a291-0b9f66031816)
+2018-09-20T20:25:58.907 [Info] Executed HTTP request: {
+  "requestId": "0ce1c323-ca58-4212-ad89-68696b3be2e0",
+  "method": "GET",
+  "uri": "/api/GetRatings/\"cc20a6fb-a91f-4192-874d-132493685376\"",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:25:58.907 [Error] {"id":"d176429c-ac6c-4023-b743-76649468421c","requestId":"0ce1c323-ca58-4212-ad89-68696b3be2e0","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID d176429c-ac6c-4023-b743-76649468421c"}
+2018-09-20T20:25:58.907 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:27:32.427 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:27:32.427 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:27:32.443 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:27:32.443 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:27:32.443 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:27:32.443 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:27:32.958 [Info] Stopping Host
+2018-09-20T20:27:32.958 [Info] Job host stopped
+2018-09-20T20:27:33.208 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:27:33.412 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:27:33.412 [Info] Host configuration file read:
+{}
+2018-09-20T20:27:33.412 [Verbose] Host configuration applied.
+2018-09-20T20:27:33.412 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=c14eec43-f3c5-4dc6-9fe5-4f6cf9f2747c, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=6, FunctionsExtensionVersion=~1)
+2018-09-20T20:27:33.443 [Verbose] Debug file watch initialized.
+2018-09-20T20:27:33.443 [Verbose] File event source initialized.
+2018-09-20T20:27:33.474 [Verbose] Function metadata read.
+2018-09-20T20:27:33.474 [Verbose] Binding providers loaded.
+2018-09-20T20:27:33.474 [Verbose] Binding providers initialized.
+2018-09-20T20:27:33.474 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:27:33.474 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:27:33.474 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:27:33.474 [Verbose] Extension loading complete.
+2018-09-20T20:27:33.474 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:27:33.521 [Verbose] Metadata provider created.
+2018-09-20T20:27:33.521 [Verbose] Function descriptors read.
+2018-09-20T20:27:33.521 [Info] Generating 2 job function(s)
+2018-09-20T20:27:33.521 [Verbose] Development settings applied
+2018-09-20T20:27:33.521 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:27:33.521 [Info] Host initialized (576ms)
+2018-09-20T20:27:33.615 [Info] Host started (666ms)
+2018-09-20T20:27:33.615 [Info] Job host started
+2018-09-20T20:27:33.630 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:27:37.415 [Info] Executing HTTP request: {
+  "requestId": "db24422e-54aa-47d3-90c7-18e7ebfba7d5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:27:37.415 [Info] Executed HTTP request: {
+  "requestId": "db24422e-54aa-47d3-90c7-18e7ebfba7d5",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:27:37.415 [Info] Executing HTTP request: {
+  "requestId": "0c8a4faa-e1b6-4a58-bd38-90f6b74e804d",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:27:37.415 [Info] Executing HTTP request: {
+  "requestId": "9e3bc6cc-871a-40fc-af31-3e2a548c5051",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:27:37.415 [Info] Executed HTTP request: {
+  "requestId": "9e3bc6cc-871a-40fc-af31-3e2a548c5051",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:27:37.474 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:27:37.474 [Info] Executed HTTP request: {
+  "requestId": "0c8a4faa-e1b6-4a58-bd38-90f6b74e804d",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:27:37.599 [Info] Executing HTTP request: {
+  "requestId": "ca73be39-973e-4167-acd9-04b3b0e2166b",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:27:37.599 [Info] Executed HTTP request: {
+  "requestId": "ca73be39-973e-4167-acd9-04b3b0e2166b",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:27:37.599 [Info] Executing HTTP request: {
+  "requestId": "4257a88e-030b-4524-89a9-760a65046dab",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:27:37.599 [Info] Executed HTTP request: {
+  "requestId": "4257a88e-030b-4524-89a9-760a65046dab",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:27:37.615 [Info] Executing HTTP request: {
+  "requestId": "7725332d-b0ac-452b-8f8f-617f5b39110a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:27:37.615 [Info] Executed HTTP request: {
+  "requestId": "7725332d-b0ac-452b-8f8f-617f5b39110a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:01.563 [Info] Executing HTTP request: {
+  "requestId": "09bef737-a125-4be1-be36-0add7a5be907",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:28:01.563 [Info,GetRatings] Function started (Id=577f0abc-6772-41db-a40e-aed84033726d)
+2018-09-20T20:28:01.563 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=577f0abc-6772-41db-a40e-aed84033726d)
+2018-09-20T20:28:01.938 [Error] A ScriptHost error has occurred
+2018-09-20T20:28:01.938 [Error] Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T20:28:01.970 [Error,GetRatings] Exception while executing function: Functions.GetRatings. Microsoft.Azure.Documents.Client: Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T20:28:01.985 [Error,GetRatings] Exception while executing function: Functions.GetRatings
+2018-09-20T20:28:01.985 [Error,GetRatings] Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T20:28:01.985 [Error,GetRatings] Function completed (Failure, Id=577f0abc-6772-41db-a40e-aed84033726d, Duration=427ms)
+2018-09-20T20:28:02.001 [Error,GetRatings] Executed 'Functions.GetRatings' (Failed, Id=577f0abc-6772-41db-a40e-aed84033726d)
+2018-09-20T20:28:02.001 [Error,GetRatings] Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T20:28:02.001 [Error,GetRatings] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is '577f0abc-6772-41db-a40e-aed84033726d'
+2018-09-20T20:28:02.001 [Error,GetRatings] Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T20:28:02.096 [Error] {"id":"372f89c7-de8e-4608-b1fd-0c1c8eecdf44","requestId":"09bef737-a125-4be1-be36-0add7a5be907","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 372f89c7-de8e-4608-b1fd-0c1c8eecdf44"}
+2018-09-20T20:28:02.096 [Error] Message: {"errors":[{"severity":"Error","location":{"start":27,"end":28},"code":"SC2001","message":"Identifier 'r' could not be resolved."}]}
+ActivityId: dc29c322-589b-466a-8b6d-3278c7f4ec17, Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T20:28:53.425 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:28:53.425 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:28:53.425 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:28:53.425 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:28:53.441 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:28:53.441 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:28:53.941 [Info] Stopping Host
+2018-09-20T20:28:53.941 [Info] Job host stopped
+2018-09-20T20:28:53.956 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:28:53.972 [Info] Host configuration file read:
+{}
+2018-09-20T20:28:53.972 [Verbose] Host configuration applied.
+2018-09-20T20:28:53.972 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=1c32fd24-97ff-4efc-8ad5-fccab352966e, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=7, FunctionsExtensionVersion=~1)
+2018-09-20T20:28:53.972 [Verbose] Debug file watch initialized.
+2018-09-20T20:28:53.972 [Verbose] File event source initialized.
+2018-09-20T20:28:53.988 [Verbose] Function metadata read.
+2018-09-20T20:28:53.988 [Verbose] Binding providers loaded.
+2018-09-20T20:28:53.988 [Verbose] Binding providers initialized.
+2018-09-20T20:28:53.988 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:28:53.988 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:28:53.988 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:28:53.988 [Verbose] Extension loading complete.
+2018-09-20T20:28:53.988 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:28:54.020 [Verbose] Metadata provider created.
+2018-09-20T20:28:54.020 [Verbose] Function descriptors read.
+2018-09-20T20:28:54.020 [Info] Generating 2 job function(s)
+2018-09-20T20:28:54.039 [Verbose] Development settings applied
+2018-09-20T20:28:54.039 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:28:54.039 [Info] Host initialized (102ms)
+2018-09-20T20:28:54.066 [Info] Host started (136ms)
+2018-09-20T20:28:54.066 [Info] Job host started
+2018-09-20T20:28:54.097 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:28:54.097 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:28:59.498 [Info] Executing HTTP request: {
+  "requestId": "729f2a88-c863-4375-9992-4e6c0766ae99",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:28:59.498 [Info] Executing HTTP request: {
+  "requestId": "893b1420-fb81-4163-9ec8-9357d4a2c0e6",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:28:59.498 [Info] Executed HTTP request: {
+  "requestId": "893b1420-fb81-4163-9ec8-9357d4a2c0e6",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:59.515 [Info] Executing HTTP request: {
+  "requestId": "1af78c51-7848-42e6-bbdb-1820f47e21e5",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:28:59.515 [Info] Executed HTTP request: {
+  "requestId": "1af78c51-7848-42e6-bbdb-1820f47e21e5",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:59.515 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:28:59.515 [Info] Executed HTTP request: {
+  "requestId": "729f2a88-c863-4375-9992-4e6c0766ae99",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:59.654 [Info] Executing HTTP request: {
+  "requestId": "0c63ff99-53e0-4b86-946e-10fee308b2e9",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:28:59.654 [Info] Executed HTTP request: {
+  "requestId": "0c63ff99-53e0-4b86-946e-10fee308b2e9",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:59.669 [Info] Executing HTTP request: {
+  "requestId": "b241cafa-0bcd-4b3a-be5b-ef10cadf34f8",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:28:59.669 [Info] Executed HTTP request: {
+  "requestId": "b241cafa-0bcd-4b3a-be5b-ef10cadf34f8",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:28:59.669 [Info] Executing HTTP request: {
+  "requestId": "ce812a75-e473-447c-bac9-a25bf9569181",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:28:59.669 [Info] Executed HTTP request: {
+  "requestId": "ce812a75-e473-447c-bac9-a25bf9569181",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:29:06.116 [Error] A ScriptHost error has occurred
+2018-09-20T20:29:06.116 [Error] System.InvalidOperationException : Singleton lock renewal failed for blob 'locks/prkfunapp/host' with error code 409: LeaseIdMismatchWithLeaseOperation. The last successful renewal completed at 0001-01-01T00:00:00Z (-2147483648 milliseconds ago) with a duration of 0 milliseconds. The lease period was 15000 milliseconds.
+2018-09-20T20:29:06.132 [Error] Singleton lock renewal failed for blob 'locks/prkfunapp/host' with error code 409: LeaseIdMismatchWithLeaseOperation. The last successful renewal completed at 0001-01-01T00:00:00Z (-2147483648 milliseconds ago) with a duration of 0 milliseconds. The lease period was 15000 milliseconds.
+2018-09-20T20:29:06.132 [Info] Failed to renew host lock lease: Another host has acquired the lease. The last successful renewal completed at 2018-09-20T20:28:54.097Z (12034 milliseconds ago) with a duration of 57 milliseconds.
+2018-09-20T20:29:09.318 [Info] Executing HTTP request: {
+  "requestId": "a7074ed6-c897-490a-b029-46ece2d06748",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:29:09.318 [Info,GetRatings] Function started (Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f)
+2018-09-20T20:29:09.318 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f)
+2018-09-20T20:29:09.493 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:29:09.493 [Info,GetRatings] Function completed (Success, Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f, Duration=185ms)
+2018-09-20T20:29:09.493 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=c19c9882-38c7-4d0e-bc64-3f964c30da0f)
+2018-09-20T20:29:09.493 [Info] Executed HTTP request: {
+  "requestId": "a7074ed6-c897-490a-b029-46ece2d06748",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:29:11.137 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:29:33.602 [Info] Executing HTTP request: {
+  "requestId": "763a6847-6ccd-47c5-ba7a-e91c7b42578f",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:29:33.602 [Info,GetRatings] Function started (Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033)
+2018-09-20T20:29:33.602 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033)
+2018-09-20T20:29:33.602 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:29:33.602 [Info,GetRatings] Function completed (Success, Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033, Duration=12ms)
+2018-09-20T20:29:33.602 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=8c41b7be-35b5-4c7a-bdaa-ba17d42db033)
+2018-09-20T20:29:33.602 [Info] Executed HTTP request: {
+  "requestId": "763a6847-6ccd-47c5-ba7a-e91c7b42578f",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:30:39.882 [Info] Executing HTTP request: {
+  "requestId": "7764678f-c9b1-46a9-94da-dbb3a066fcd2",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:30:39.882 [Info] Executing HTTP request: {
+  "requestId": "a09cf26c-bae3-4efe-b531-8d87db17413f",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:30:39.882 [Info] Executed HTTP request: {
+  "requestId": "a09cf26c-bae3-4efe-b531-8d87db17413f",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:39.882 [Info] Executing HTTP request: {
+  "requestId": "42f96683-66b1-4983-94e4-b9643d26024c",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:30:39.882 [Info] Executed HTTP request: {
+  "requestId": "42f96683-66b1-4983-94e4-b9643d26024c",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:39.896 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:30:39.896 [Info] Executed HTTP request: {
+  "requestId": "7764678f-c9b1-46a9-94da-dbb3a066fcd2",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:40.787 [Info] Executing HTTP request: {
+  "requestId": "e9550b7d-a73c-4ab3-8053-ce1a928ba674",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:30:40.787 [Info] Executing HTTP request: {
+  "requestId": "5435364a-1b29-478b-b42f-3f35ca1ab889",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:30:40.787 [Info] Executed HTTP request: {
+  "requestId": "5435364a-1b29-478b-b42f-3f35ca1ab889",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:40.802 [Info] Executed HTTP request: {
+  "requestId": "e9550b7d-a73c-4ab3-8053-ce1a928ba674",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:40.802 [Info] Executing HTTP request: {
+  "requestId": "288927ec-e80b-4845-9104-81c37d94e45b",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:30:40.802 [Info] Executed HTTP request: {
+  "requestId": "288927ec-e80b-4845-9104-81c37d94e45b",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:30:57.260 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:30:57.260 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:30:57.276 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:30:57.276 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:30:57.292 [Info] File change of type 'Changed' detected for 'D:\home\site\wwwroot\GetRatings\function.json'
+2018-09-20T20:30:57.292 [Info] Host configuration has changed. Signaling restart
+2018-09-20T20:30:57.793 [Info] Stopping Host
+2018-09-20T20:30:57.793 [Info] Job host stopped
+2018-09-20T20:30:57.808 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:30:57.824 [Info] Host configuration file read:
+{}
+2018-09-20T20:30:57.824 [Verbose] Host configuration applied.
+2018-09-20T20:30:57.824 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=6c2003ff-08d6-445a-ad50-582179538890, ProcessId=6928, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=8, FunctionsExtensionVersion=~1)
+2018-09-20T20:30:57.824 [Verbose] Debug file watch initialized.
+2018-09-20T20:30:57.824 [Verbose] File event source initialized.
+2018-09-20T20:30:57.839 [Verbose] Function metadata read.
+2018-09-20T20:30:57.839 [Verbose] Binding providers loaded.
+2018-09-20T20:30:57.839 [Verbose] Binding providers initialized.
+2018-09-20T20:30:57.839 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:30:57.839 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:30:57.839 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:30:57.839 [Verbose] Extension loading complete.
+2018-09-20T20:30:57.839 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:30:57.871 [Verbose] Metadata provider created.
+2018-09-20T20:30:57.871 [Verbose] Function descriptors read.
+2018-09-20T20:30:57.871 [Info] Generating 2 job function(s)
+2018-09-20T20:30:57.886 [Verbose] Development settings applied
+2018-09-20T20:30:57.886 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:30:57.886 [Info] Host initialized (97ms)
+2018-09-20T20:30:57.949 [Info] Host started (167ms)
+2018-09-20T20:30:57.949 [Info] Job host started
+2018-09-20T20:30:58.043 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:30:57.933 [Verbose] Host '7b97813aba0260c857a2471ff067a368' released lock lease.
+2018-09-20T20:31:05.922 [Info] Executing HTTP request: {
+  "requestId": "0c9c3534-09e8-4b86-af5f-aace8797f59a",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:31:05.922 [Info] Executing HTTP request: {
+  "requestId": "3e10fae4-0abb-425d-81ad-dd5c834f9c02",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:31:05.922 [Info] Executed HTTP request: {
+  "requestId": "3e10fae4-0abb-425d-81ad-dd5c834f9c02",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:05.922 [Info] Executing HTTP request: {
+  "requestId": "90361778-d2f2-435c-a014-453d260607a0",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:31:05.922 [Info] Executed HTTP request: {
+  "requestId": "90361778-d2f2-435c-a014-453d260607a0",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:05.938 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:31:05.938 [Info] Executed HTTP request: {
+  "requestId": "0c9c3534-09e8-4b86-af5f-aace8797f59a",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:06.516 [Info] Executing HTTP request: {
+  "requestId": "6f7a75cd-5f34-463d-84df-0ba9c70e1168",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:31:06.516 [Info] Executed HTTP request: {
+  "requestId": "6f7a75cd-5f34-463d-84df-0ba9c70e1168",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:06.516 [Info] Executing HTTP request: {
+  "requestId": "c74bd9ec-a67d-48aa-af2b-408489ef130a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:31:06.516 [Info] Executed HTTP request: {
+  "requestId": "c74bd9ec-a67d-48aa-af2b-408489ef130a",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:06.516 [Info] Executing HTTP request: {
+  "requestId": "bdcc2859-2a9a-47b9-b100-b00085aae090",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:31:06.516 [Info] Executed HTTP request: {
+  "requestId": "bdcc2859-2a9a-47b9-b100-b00085aae090",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:31:26.485 [Info] Executing HTTP request: {
+  "requestId": "c3ced914-652e-4876-af6f-6ea7bf05d1f0",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:31:26.485 [Info,GetRatings] Function started (Id=bcc1bd05-fe4e-404d-a595-26d27a828848)
+2018-09-20T20:31:26.485 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=bcc1bd05-fe4e-404d-a595-26d27a828848)
+2018-09-20T20:31:26.704 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:31:26.704 [Info,GetRatings] Function completed (Success, Id=bcc1bd05-fe4e-404d-a595-26d27a828848, Duration=220ms)
+2018-09-20T20:31:26.704 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=bcc1bd05-fe4e-404d-a595-26d27a828848)
+2018-09-20T20:31:26.704 [Info] Executed HTTP request: {
+  "requestId": "c3ced914-652e-4876-af6f-6ea7bf05d1f0",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:31:26.704 [Error] {"id":"f6f00cc6-3181-458b-9fc9-b671539ef401","requestId":"c3ced914-652e-4876-af6f-6ea7bf05d1f0","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID f6f00cc6-3181-458b-9fc9-b671539ef401"}
+2018-09-20T20:31:26.704 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:31:47.776 [Info] Executing HTTP request: {
+  "requestId": "7b966b85-8d3a-4a1a-8287-f70a09e6db6f",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:31:47.776 [Info,GetRatings] Function started (Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3)
+2018-09-20T20:31:47.776 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3)
+2018-09-20T20:31:47.807 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:31:47.807 [Info,GetRatings] Function completed (Success, Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3, Duration=33ms)
+2018-09-20T20:31:47.807 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=28b7ae76-1e92-462a-b0dc-f83721fab2f3)
+2018-09-20T20:31:47.807 [Info] Executed HTTP request: {
+  "requestId": "7b966b85-8d3a-4a1a-8287-f70a09e6db6f",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:32:07.440 [Info] Executing HTTP request: {
+  "requestId": "5acdb120-40ee-4162-bced-c3b99dc43c48",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:32:07.440 [Info,GetRatings] Function started (Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95)
+2018-09-20T20:32:07.440 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95)
+2018-09-20T20:32:07.596 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:32:07.596 [Info,GetRatings] Function completed (Success, Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95, Duration=158ms)
+2018-09-20T20:32:07.596 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=3180cfb7-bd8b-4ae4-b5cd-fde45ac82c95)
+2018-09-20T20:32:07.596 [Info] Executed HTTP request: {
+  "requestId": "5acdb120-40ee-4162-bced-c3b99dc43c48",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:32:07.596 [Error] {"id":"0cdefeb6-1981-4eba-b073-3eaa0b905217","requestId":"5acdb120-40ee-4162-bced-c3b99dc43c48","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 0cdefeb6-1981-4eba-b073-3eaa0b905217"}
+2018-09-20T20:32:07.596 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:32:35.852 [Info] Executing HTTP request: {
+  "requestId": "7b2c3ded-9024-47af-9f07-6154ba97e434",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:32:35.852 [Info] Executed HTTP request: {
+  "requestId": "7b2c3ded-9024-47af-9f07-6154ba97e434",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:32:48.606 [Info] Executing HTTP request: {
+  "requestId": "d20e924d-a3fb-4f90-a1fc-a5195ddbf64e",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:32:48.606 [Info,GetRatings] Function started (Id=b7de558c-975d-42f0-aa18-91a86fcd3a82)
+2018-09-20T20:32:48.606 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=b7de558c-975d-42f0-aa18-91a86fcd3a82)
+2018-09-20T20:32:48.638 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:32:48.638 [Info,GetRatings] Function completed (Success, Id=b7de558c-975d-42f0-aa18-91a86fcd3a82, Duration=32ms)
+2018-09-20T20:32:48.638 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=b7de558c-975d-42f0-aa18-91a86fcd3a82)
+2018-09-20T20:32:48.638 [Info] Executed HTTP request: {
+  "requestId": "d20e924d-a3fb-4f90-a1fc-a5195ddbf64e",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:32:48.638 [Error] {"id":"e58fdc59-3015-4496-b2ba-f39f95adf39f","requestId":"d20e924d-a3fb-4f90-a1fc-a5195ddbf64e","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID e58fdc59-3015-4496-b2ba-f39f95adf39f"}
+2018-09-20T20:32:48.638 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:34:57.580 [Info] Executing HTTP request: {
+  "requestId": "741f3a9d-16cb-4456-8c5c-ae7c863956f3",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:34:57.580 [Info] Executed HTTP request: {
+  "requestId": "741f3a9d-16cb-4456-8c5c-ae7c863956f3",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:35:31.342 [Info] Executing HTTP request: {
+  "requestId": "9a1232a9-f1c0-4ab7-843f-970e6de90c54",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:35:31.342 [Info] Executed HTTP request: {
+  "requestId": "9a1232a9-f1c0-4ab7-843f-970e6de90c54",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:36:14.450 [Info] Executing HTTP request: {
+  "requestId": "39a6a442-3fe9-4667-aaa9-2d45adcc75a5",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:36:14.450 [Info,GetRatings] Function started (Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf)
+2018-09-20T20:36:14.450 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf)
+2018-09-20T20:36:14.528 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:36:14.528 [Info,GetRatings] Function completed (Success, Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf, Duration=75ms)
+2018-09-20T20:36:14.528 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=bfdf2acb-90b0-4e4e-aebe-309a7e1cdaaf)
+2018-09-20T20:36:14.528 [Info] Executed HTTP request: {
+  "requestId": "39a6a442-3fe9-4667-aaa9-2d45adcc75a5",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:37:01.725 [Info] Executing HTTP request: {
+  "requestId": "a2cb2787-add8-4a8e-803e-5915110600aa",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:37:01.725 [Info] Executed HTTP request: {
+  "requestId": "a2cb2787-add8-4a8e-803e-5915110600aa",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:38:29.440 [Info] Executing HTTP request: {
+  "requestId": "d1dbe72c-71e9-47b0-9325-c1640bc5fefd",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:38:29.440 [Info,GetRatings] Function started (Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69)
+2018-09-20T20:38:29.440 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69)
+2018-09-20T20:38:29.533 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:38:29.533 [Info,GetRatings] Function completed (Success, Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69, Duration=97ms)
+2018-09-20T20:38:29.533 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=ddb276f2-a0ae-4d6f-9971-c8cecc873e69)
+2018-09-20T20:38:29.533 [Info] Executed HTTP request: {
+  "requestId": "d1dbe72c-71e9-47b0-9325-c1640bc5fefd",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:38:50.050 [Info] Executing HTTP request: {
+  "requestId": "1133d75f-cfa9-49d6-af61-f04d8075bc06",
+  "method": "GET",
+  "uri": "/api/GetRatings/"
+}
+2018-09-20T20:38:50.050 [Info] Executed HTTP request: {
+  "requestId": "1133d75f-cfa9-49d6-af61-f04d8075bc06",
+  "method": "GET",
+  "uri": "/api/GetRatings/",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:39:47.375 [Info] Executing HTTP request: {
+  "requestId": "6d6d7629-9520-4555-a341-03acb8796bcf",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:39:47.375 [Info] Executed HTTP request: {
+  "requestId": "6d6d7629-9520-4555-a341-03acb8796bcf",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:31.748 [Info] Executing HTTP request: {
+  "requestId": "b5653e66-798a-4c99-9355-8aa9c33a83a9",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:41:31.810 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:41:31.810 [Info] Executed HTTP request: {
+  "requestId": "b5653e66-798a-4c99-9355-8aa9c33a83a9",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:39.583 [Info] Stopping Host
+2018-09-20T20:41:39.583 [Info] Job host stopped
+2018-09-20T20:41:52.221 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T20:41:53.083 [Info] Host configuration file read:
+{}
+2018-09-20T20:41:53.083 [Verbose] Host configuration applied.
+2018-09-20T20:41:53.083 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=2e486e91-2de8-428f-b20b-898ca75c78b3, ProcessId=7016, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-20T20:41:53.099 [Verbose] Debug file watch initialized.
+2018-09-20T20:41:53.099 [Verbose] File event source initialized.
+2018-09-20T20:41:53.115 [Verbose] Function metadata read.
+2018-09-20T20:41:53.130 [Verbose] Binding providers loaded.
+2018-09-20T20:41:53.130 [Verbose] Binding providers initialized.
+2018-09-20T20:41:53.130 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T20:41:53.130 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T20:41:53.130 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T20:41:53.130 [Verbose] Extension loading complete.
+2018-09-20T20:41:53.240 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T20:41:53.286 [Verbose] Metadata provider created.
+2018-09-20T20:41:53.286 [Verbose] Function descriptors read.
+2018-09-20T20:41:53.286 [Info] Generating 2 job function(s)
+2018-09-20T20:41:53.302 [Verbose] Development settings applied
+2018-09-20T20:41:53.302 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T20:41:53.302 [Info] Host initialized (1118ms)
+2018-09-20T20:41:53.427 [Info] Executing HTTP request: {
+  "requestId": "003d3bb1-12d3-4870-974a-731b412340b5",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T20:41:53.427 [Info] Host started (1246ms)
+2018-09-20T20:41:53.427 [Info] Job host started
+2018-09-20T20:41:53.443 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T20:41:53.443 [Info] Executed HTTP request: {
+  "requestId": "003d3bb1-12d3-4870-974a-731b412340b5",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:53.521 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T20:41:53.646 [Info] Executing HTTP request: {
+  "requestId": "9d0145ae-4384-445e-9ab2-2e520e65fba6",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T20:41:53.661 [Info] Executed HTTP request: {
+  "requestId": "9d0145ae-4384-445e-9ab2-2e520e65fba6",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:53.677 [Info] Executing HTTP request: {
+  "requestId": "cbc34496-7ec9-4dd1-a11a-f874e2c3b332",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T20:41:53.697 [Info] Executed HTTP request: {
+  "requestId": "cbc34496-7ec9-4dd1-a11a-f874e2c3b332",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:53.818 [Info] Executing HTTP request: {
+  "requestId": "03e4a7f3-1006-456c-b056-cd03b099fa0e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T20:41:53.833 [Info] Executing HTTP request: {
+  "requestId": "eb3604ec-f568-44e9-b20f-103c82fec35d",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T20:41:53.833 [Info] Executed HTTP request: {
+  "requestId": "eb3604ec-f568-44e9-b20f-103c82fec35d",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:53.849 [Info] Executing HTTP request: {
+  "requestId": "c7236a1f-1304-4350-93c6-f751b39a0cb0",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T20:41:53.849 [Info] Executed HTTP request: {
+  "requestId": "c7236a1f-1304-4350-93c6-f751b39a0cb0",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:41:53.896 [Info] Executed HTTP request: {
+  "requestId": "03e4a7f3-1006-456c-b056-cd03b099fa0e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T20:42:02.125 [Info] Executing HTTP request: {
+  "requestId": "a7a0bdc9-282e-40dc-9f8d-af475b118251",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:42:02.125 [Info,GetRatings] Function started (Id=4e34576e-f32e-4cec-b41d-294eb0846c09)
+2018-09-20T20:42:02.125 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=4e34576e-f32e-4cec-b41d-294eb0846c09)
+2018-09-20T20:42:02.578 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:42:02.594 [Info,GetRatings] Function completed (Success, Id=4e34576e-f32e-4cec-b41d-294eb0846c09, Duration=467ms)
+2018-09-20T20:42:02.594 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=4e34576e-f32e-4cec-b41d-294eb0846c09)
+2018-09-20T20:42:02.594 [Info] Executed HTTP request: {
+  "requestId": "a7a0bdc9-282e-40dc-9f8d-af475b118251",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:47:09.368 [Info] Executing HTTP request: {
+  "requestId": "ee011913-a135-4ab6-ba6f-da5ca3446602",
+  "method": "GET",
+  "uri": "/api/GetRatings/{cc20a6fb-a91f-4192-874d-132493685376}"
+}
+2018-09-20T20:47:09.368 [Info,GetRatings] Function started (Id=772ca974-999a-47ac-9067-e99870139764)
+2018-09-20T20:47:09.368 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=772ca974-999a-47ac-9067-e99870139764)
+2018-09-20T20:47:09.446 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:47:09.462 [Info,GetRatings] Function completed (Success, Id=772ca974-999a-47ac-9067-e99870139764, Duration=98ms)
+2018-09-20T20:47:09.462 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=772ca974-999a-47ac-9067-e99870139764)
+2018-09-20T20:47:09.462 [Info] Executed HTTP request: {
+  "requestId": "ee011913-a135-4ab6-ba6f-da5ca3446602",
+  "method": "GET",
+  "uri": "/api/GetRatings/{cc20a6fb-a91f-4192-874d-132493685376}",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:47:42.652 [Info] Executing HTTP request: {
+  "requestId": "12fe3cd0-19f7-42ea-bb9b-cba676e85793",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"userid\":\"cc20a6fb-a91f-4192-874d-132493685376\"}"
+}
+2018-09-20T20:47:42.652 [Info,GetRatings] Function started (Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789)
+2018-09-20T20:47:42.652 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789)
+2018-09-20T20:47:42.715 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:47:42.715 [Info,GetRatings] Function completed (Success, Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789, Duration=60ms)
+2018-09-20T20:47:42.715 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=0cf46b70-ada8-4d53-9ba9-a3cc48e6d789)
+2018-09-20T20:47:42.715 [Info] Executed HTTP request: {
+  "requestId": "12fe3cd0-19f7-42ea-bb9b-cba676e85793",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"userid\":\"cc20a6fb-a91f-4192-874d-132493685376\"}",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:48:41.338 [Info,GetRatings] Script for function 'GetRatings' changed. Reloading.
+2018-09-20T20:48:43.405 [Info] Executing HTTP request: {
+  "requestId": "91cae366-c997-4983-b999-95de263ee461",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:48:43.405 [Info,GetRatings] Function started (Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0)
+2018-09-20T20:48:43.405 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0)
+2018-09-20T20:48:43.561 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:48:43.561 [Info,GetRatings] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { connection: 'Keep-Alive',
+     accept: 'application/json, text/plain, */*',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1Mzc0NzY1MjMsImV4cCI6MTUzNzQ3NjgyMywiaWF0IjoxNTM3NDc2NTIzLCJpc3MiOiJodHRwczovL3Bya2Z1bmFwcC5zY20uYXp1cmV3ZWJzaXRlcy5uZXQiLCJhdWQiOiJodHRwczovL3Bya2Z1bmFwcC5henVyZXdlYnNpdGVzLm5ldC9henVyZWZ1bmN0aW9ucyJ9.m-CywDkKVC4suZ-ZqjcLl-YB8pNKdTx5qf-KnuOnHYY',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     referer: 'https://functions.azure.com/ng-min/resources/subscriptions/51da105c-0b77-42ed-bfb5-277d4bf7184a/resourcegroups/prkcosmosrg/sites/prkfunapp/functions/getratings?correlationId=1a42975d-9da3&appsvc.bladetype=appblade&trustedAuthority=https:%2F%2Fportal.azure.com',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     origin: 'https://functions.azure.com',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.40.158:54946',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '91cae366-c997-4983-b999-95de263ee461',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:30240',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-type': 'application/json',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T20:48:43.561 [Info,GetRatings] Function completed (Success, Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0, Duration=156ms)
+2018-09-20T20:48:43.577 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=f4704a07-5a9f-4f46-883d-8a89f39f60d0)
+2018-09-20T20:48:43.577 [Info] Executed HTTP request: {
+  "requestId": "91cae366-c997-4983-b999-95de263ee461",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:51:07.196 [Info] Executing HTTP request: {
+  "requestId": "701b1d54-1cfe-4337-ba6b-ddc3d98f2184",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:51:07.196 [Info] Executed HTTP request: {
+  "requestId": "701b1d54-1cfe-4337-ba6b-ddc3d98f2184",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:52:34.282 [Info] Executing HTTP request: {
+  "requestId": "cbce9873-8f21-46b4-9724-4164ba0e2d46",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:52:34.282 [Info] Executed HTTP request: {
+  "requestId": "cbce9873-8f21-46b4-9724-4164ba0e2d46",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:52:53.365 [Info] Executing HTTP request: {
+  "requestId": "178e4ee1-2ace-443b-9be6-12ba8a7ccdfc",
+  "method": "GET",
+  "uri": "/api/GetRatings"
+}
+2018-09-20T20:52:53.365 [Info] Executed HTTP request: {
+  "requestId": "178e4ee1-2ace-443b-9be6-12ba8a7ccdfc",
+  "method": "GET",
+  "uri": "/api/GetRatings",
+  "authorizationLevel": "Anonymous",
+  "status": "NotFound"
+}
+2018-09-20T20:56:06.918 [Info] Executing HTTP request: {
+  "requestId": "15c74aa2-95be-4779-a94d-3f901fb98034",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376"
+}
+2018-09-20T20:56:06.934 [Info,GetRatings] Function started (Id=470792b9-309b-43a8-b356-65d0157b0101)
+2018-09-20T20:56:06.934 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=470792b9-309b-43a8-b356-65d0157b0101)
+2018-09-20T20:56:07.012 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:56:07.012 [Info,GetRatings] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'max-age=0',
+     connection: 'Keep-Alive',
+     accept: 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'upgrade-insecure-requests': '1',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.52.70:30360',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '15c74aa2-95be-4779-a94d-3f901fb98034',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:27047',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T20:56:07.012 [Info,GetRatings] Function completed (Success, Id=470792b9-309b-43a8-b356-65d0157b0101, Duration=83ms)
+2018-09-20T20:56:07.012 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=470792b9-309b-43a8-b356-65d0157b0101)
+2018-09-20T20:56:07.012 [Info] Executed HTTP request: {
+  "requestId": "15c74aa2-95be-4779-a94d-3f901fb98034",
+  "method": "GET",
+  "uri": "/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T20:56:07.090 [Error] {"id":"3be6871f-766d-42f0-9c82-4ff0522d4e80","requestId":"15c74aa2-95be-4779-a94d-3f901fb98034","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 3be6871f-766d-42f0-9c82-4ff0522d4e80"}
+2018-09-20T20:56:07.090 [Error] System.Runtime.Serialization.SerializationException : Type 'System.Dynamic.ExpandoObject' with data contract name 'ArrayOfKeyValueOfstringanyType:http://schemas.microsoft.com/2003/10/Serialization/Arrays' is not expected. Consider using a DataContractResolver if you are using DataContractSerializer or add any types not known statically to the list of known types - for example, by using the KnownTypeAttribute attribute or by adding them to the list of known types passed to the serializer.
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeAndVerifyType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,Boolean verifyKnownType,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithXsiType(XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle objectTypeHandle,Type objectType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle,Type declaredType)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter,Object obj,Boolean isDeclaredType,Boolean writeXsiType,Int32 declaredTypeID,RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfanyTypeToXml(XmlWriterDelegator ,Object ,XmlObjectSerializerWriteContext ,CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter,Object obj,XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract,XmlWriterDelegator xmlWriter,Object obj,RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer,Object graph,DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer,Object graph)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStream(Type type,Object value,Stream writeStream,HttpContent content)
+   at System.Net.Http.Formatting.XmlMediaTypeFormatter.WriteToStreamAsync(Type type,Object value,Stream writeStream,HttpContent content,TransportContext transportContext,CancellationToken cancellationToken)
+   at async System.Web.Http.WebHost.HttpControllerHandler.WriteBufferedResponseContentAsync(HttpContextBase httpContextBase,HttpRequestMessage request,HttpResponseMessage response,IExceptionLogger exceptionLogger,IExceptionHandler exceptionHandler,CancellationToken cancellationToken)
+2018-09-20T20:56:36.691 [Info] Executing HTTP request: {
+  "requestId": "cfff649a-fca3-40e3-895c-9bade7281c67",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"userid\":\"cc20a6fb-a91f-4192-874d-132493685376\"}"
+}
+2018-09-20T20:56:36.691 [Info,GetRatings] Function started (Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4)
+2018-09-20T20:56:36.691 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4)
+2018-09-20T20:56:36.738 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T20:56:36.769 [Info,GetRatings] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}',
+  method: 'GET',
+  query: {},
+  headers: 
+   { connection: 'Keep-Alive',
+     accept: 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8',
+     'accept-encoding': 'gzip, deflate, br',
+     'accept-language': 'en-US, en; q=0.9',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+     'upgrade-insecure-requests': '1',
+     'x-waws-unencoded-url': '/api/GetRatings/%7B%22userid%22:%22cc20a6fb-a91f-4192-874d-132493685376%22%7D',
+     'client-ip': '10.72.52.70:30360',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': 'cfff649a-fca3-40e3-895c-9bade7281c67',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}',
+     'x-forwarded-for': '131.107.160.107:27047',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: '{"userid":"cc20a6fb-a91f-4192-874d-132493685376"}' } }
+2018-09-20T20:56:36.769 [Info,GetRatings] Function completed (Success, Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4, Duration=71ms)
+2018-09-20T20:56:36.769 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=faa04c6d-30e7-4c63-9cb3-dccba6b612b4)
+2018-09-20T20:56:36.769 [Info] Executed HTTP request: {
+  "requestId": "cfff649a-fca3-40e3-895c-9bade7281c67",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"userid\":\"cc20a6fb-a91f-4192-874d-132493685376\"}",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T21:00:44.717 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T21:00:44.717 [Info] Executed HTTP request: {
+  "requestId": "fa998dac-c197-403f-9ae5-e039b8eb3c4f",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.283 [Info] Executing HTTP request: {
+  "requestId": "8ab99fa5-beed-48b8-b42a-dd2835fec9e3",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T21:00:50.283 [Info] Executed HTTP request: {
+  "requestId": "8ab99fa5-beed-48b8-b42a-dd2835fec9e3",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.314 [Info] Executing HTTP request: {
+  "requestId": "7ff6d6c6-c1c3-4e06-86dd-bed6d1c61c3e",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T21:00:50.314 [Info] Executing HTTP request: {
+  "requestId": "ab76cf73-ebc7-4de9-8751-0fc5ddb526c2",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T21:00:50.314 [Info] Executed HTTP request: {
+  "requestId": "ab76cf73-ebc7-4de9-8751-0fc5ddb526c2",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.346 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T21:00:50.346 [Info] Executed HTTP request: {
+  "requestId": "7ff6d6c6-c1c3-4e06-86dd-bed6d1c61c3e",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.502 [Info] Executing HTTP request: {
+  "requestId": "7e7111cc-cc81-4295-8aa1-4a8df24f931a",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T21:00:50.502 [Info] Executing HTTP request: {
+  "requestId": "897efcff-523e-4fcb-819a-9c4d3fc9e33e",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T21:00:50.502 [Info] Executed HTTP request: {
+  "requestId": "897efcff-523e-4fcb-819a-9c4d3fc9e33e",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.502 [Info] Executing HTTP request: {
+  "requestId": "f786d5fc-ccdf-4513-b04a-0453dd97abcd",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T21:00:50.502 [Info] Executed HTTP request: {
+  "requestId": "7e7111cc-cc81-4295-8aa1-4a8df24f931a",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:50.502 [Info] Executed HTTP request: {
+  "requestId": "f786d5fc-ccdf-4513-b04a-0453dd97abcd",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:00:56.926 [Info] Executing HTTP request: {
+  "requestId": "08a7d24b-795b-413f-8ef5-59b30fe8f4bb",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"cc20a6fb-a91f-4192-874d-132493685376\"}"
+}
+2018-09-20T21:00:56.926 [Info,GetRatings] Function started (Id=120300d9-085e-4196-8c0d-b5cd12965784)
+2018-09-20T21:00:56.926 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=120300d9-085e-4196-8c0d-b5cd12965784)
+2018-09-20T21:00:56.973 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T21:00:56.973 [Info,GetRatings] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/{"cc20a6fb-a91f-4192-874d-132493685376"}',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'no-cache',
+     connection: 'Keep-Alive',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '9',
+     'user-agent': 'PostmanRuntime/7.3.0',
+     'postman-token': 'ebdd6a59-54cb-4a23-8735-95351d6517f5',
+     'x-waws-unencoded-url': '/api/GetRatings/%7B%22cc20a6fb-a91f-4192-874d-132493685376%22%7D',
+     'client-ip': '10.72.40.158:54149',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '08a7d24b-795b-413f-8ef5-59b30fe8f4bb',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/{"cc20a6fb-a91f-4192-874d-132493685376"}',
+     'x-forwarded-for': '131.107.160.107:31954',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'content-length': '0' },
+  params: { userid: '{"cc20a6fb-a91f-4192-874d-132493685376"}' } }
+2018-09-20T21:00:56.973 [Info,GetRatings] Function completed (Success, Id=120300d9-085e-4196-8c0d-b5cd12965784, Duration=35ms)
+2018-09-20T21:00:56.973 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=120300d9-085e-4196-8c0d-b5cd12965784)
+2018-09-20T21:00:56.973 [Info] Executed HTTP request: {
+  "requestId": "08a7d24b-795b-413f-8ef5-59b30fe8f4bb",
+  "method": "GET",
+  "uri": "/api/GetRatings/{\"cc20a6fb-a91f-4192-874d-132493685376\"}",
+  "authorizationLevel": "Anonymous",
+  "status": "OK"
+}
+2018-09-20T21:01:09.881 [Info] Stopping Host
+2018-09-20T21:01:09.943 [Info] Job host stopped
+2018-09-20T21:01:25.570 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T21:01:26.635 [Info] Host configuration file read:
+{}
+2018-09-20T21:01:26.635 [Verbose] Host configuration applied.
+2018-09-20T21:01:26.635 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=f8dc500c-b558-4093-850d-1bf09ada98ce, ProcessId=2036, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-20T21:01:26.635 [Verbose] Debug file watch initialized.
+2018-09-20T21:01:26.635 [Verbose] File event source initialized.
+2018-09-20T21:01:26.682 [Verbose] Function metadata read.
+2018-09-20T21:01:26.682 [Verbose] Binding providers loaded.
+2018-09-20T21:01:26.682 [Verbose] Binding providers initialized.
+2018-09-20T21:01:26.682 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T21:01:26.682 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T21:01:26.682 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T21:01:26.682 [Verbose] Extension loading complete.
+2018-09-20T21:01:26.760 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T21:01:26.807 [Verbose] Metadata provider created.
+2018-09-20T21:01:26.807 [Verbose] Function descriptors read.
+2018-09-20T21:01:26.807 [Info] Generating 2 job function(s)
+2018-09-20T21:01:26.823 [Verbose] Development settings applied
+2018-09-20T21:01:26.823 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-20T21:01:26.823 [Info] Host initialized (1317ms)
+2018-09-20T21:01:26.838 [Info,GetRatings] Function started (Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9)
+2018-09-20T21:01:26.838 [Info,GetRatings] Executing 'Functions.GetRatings' (Reason='This function was programmatically called via the host APIs.', Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9)
+2018-09-20T21:01:27.042 [Info] Host started (1544ms)
+2018-09-20T21:01:27.042 [Info] Job host started
+2018-09-20T21:01:27.073 [Info] Host lock lease acquired by instance ID '7b97813aba0260c857a2471ff067a368'.
+2018-09-20T21:01:27.260 [Info,GetRatings] JavaScript HTTP trigger function processed a request.
+2018-09-20T21:01:27.276 [Info,GetRatings] { originalUrl: 'https://prkfunapp.azurewebsites.net/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+  method: 'GET',
+  query: {},
+  headers: 
+   { 'cache-control': 'no-cache',
+     connection: 'Keep-Alive',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate',
+     host: 'prkfunapp.azurewebsites.net',
+     'max-forwards': '8',
+     'user-agent': 'PostmanRuntime/7.3.0',
+     'postman-token': '451bcd89-6a0f-4511-832b-efe582b50af3',
+     'x-waws-unencoded-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'client-ip': '10.72.40.158:54149',
+     'is-service-tunneled': '0',
+     'x-arr-log-id': '129bd3c4-3c3b-4cfe-a282-be761bbbbc27',
+     'disguised-host': 'prkfunapp.azurewebsites.net',
+     'x-site-deployment-id': 'prkfunapp',
+     'was-default-hostname': 'prkfunapp.azurewebsites.net',
+     'x-original-url': '/api/GetRatings/cc20a6fb-a91f-4192-874d-132493685376',
+     'x-forwarded-for': '131.107.160.107:31954, 131.107.160.107',
+     'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+     'x-forwarded-proto': 'https',
+     'x-ms-coldstart': '1',
+     'content-length': '0' },
+  params: { userid: 'cc20a6fb-a91f-4192-874d-132493685376' } }
+2018-09-20T21:01:27.292 [Info,GetRatings] Function completed (Success, Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9, Duration=444ms)
+2018-09-20T21:01:27.292 [Info,GetRatings] Executed 'Functions.GetRatings' (Succeeded, Id=b5dda7fb-cadb-4277-b54a-054ff7ecffb9)
+2018-09-20T21:13:34.738 [Info] Executing HTTP request: {
+  "requestId": "ec7ac959-bfb9-49fd-a593-a384316ac43b",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T21:13:34.847 [Info] Executed HTTP request: {
+  "requestId": "ec7ac959-bfb9-49fd-a593-a384316ac43b",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:13:34.883 [Info] Executing HTTP request: {
+  "requestId": "b8005da2-e6ff-4ce8-bb4e-525668e1c2f1",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T21:13:34.894 [Info] Executing HTTP request: {
+  "requestId": "87508352-ad7b-4342-8654-7fd8fe113031",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status"
+}
+2018-09-20T21:13:34.925 [Info] Executed HTTP request: {
+  "requestId": "87508352-ad7b-4342-8654-7fd8fe113031",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:13:34.972 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T21:13:34.972 [Info] Executed HTTP request: {
+  "requestId": "b8005da2-e6ff-4ce8-bb4e-525668e1c2f1",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:13:35.097 [Info] Executing HTTP request: {
+  "requestId": "b0ec74e1-2e7d-4652-b1c7-b1f963f4148e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys"
+}
+2018-09-20T21:13:35.181 [Info] Executing HTTP request: {
+  "requestId": "fe12ecf4-cead-4f12-b2a9-c877646512e7",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T21:13:35.181 [Info] Executed HTTP request: {
+  "requestId": "fe12ecf4-cead-4f12-b2a9-c877646512e7",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:13:35.227 [Info] Executing HTTP request: {
+  "requestId": "0e5dd4bb-dce2-4bcc-acc0-d17898966100",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T21:13:35.238 [Info] Executed HTTP request: {
+  "requestId": "0e5dd4bb-dce2-4bcc-acc0-d17898966100",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:13:35.300 [Info] Executed HTTP request: {
+  "requestId": "b0ec74e1-2e7d-4652-b1c7-b1f963f4148e",
+  "method": "GET",
+  "uri": "/admin/functions/GetRatings/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:32.699 [Info] Executing HTTP request: {
+  "requestId": "f1a3222e-9a79-4a18-a263-be9401448a0e",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T21:15:32.699 [Info] Executed HTTP request: {
+  "requestId": "f1a3222e-9a79-4a18-a263-be9401448a0e",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:32.699 [Info] Executing HTTP request: {
+  "requestId": "a9400fcf-77b9-4a9b-98a8-e90ebe4b0ae5",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T21:15:32.715 [Info] Executing HTTP request: {
+  "requestId": "bcca79f0-14bc-4130-a523-6947031cb5a3",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T21:15:32.715 [Info] Executed HTTP request: {
+  "requestId": "bcca79f0-14bc-4130-a523-6947031cb5a3",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:32.730 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T21:15:32.730 [Info] Executed HTTP request: {
+  "requestId": "a9400fcf-77b9-4a9b-98a8-e90ebe4b0ae5",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:32.980 [Info] Executing HTTP request: {
+  "requestId": "e29ce014-8b21-4791-a44e-95d1b60b8ba3",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T21:15:32.996 [Info] Executing HTTP request: {
+  "requestId": "7ccbbf74-410e-4a46-a6f0-534b6dd13976",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T21:15:32.996 [Info] Executed HTTP request: {
+  "requestId": "7ccbbf74-410e-4a46-a6f0-534b6dd13976",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:32.996 [Info] Executing HTTP request: {
+  "requestId": "2f3842a0-317c-4e2e-a5a6-dbc5a1cadc81",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T21:15:32.996 [Info] Executed HTTP request: {
+  "requestId": "2f3842a0-317c-4e2e-a5a6-dbc5a1cadc81",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T21:15:33.105 [Info] Executed HTTP request: {
+  "requestId": "e29ce014-8b21-4791-a44e-95d1b60b8ba3",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}

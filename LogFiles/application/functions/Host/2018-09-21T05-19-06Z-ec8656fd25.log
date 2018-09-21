@@ -1,0 +1,28 @@
+2018-09-21T05:19:05.707 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-21T05:19:05.894 [Info] Host configuration file read:
+{}
+2018-09-21T05:19:05.894 [Verbose] Host configuration applied.
+2018-09-21T05:19:05.894 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=8492ce4e-8b88-4812-bc01-b72ff94c3dc5, ProcessId=3652, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-21T05:19:05.910 [Verbose] Debug file watch initialized.
+2018-09-21T05:19:05.910 [Verbose] File event source initialized.
+2018-09-21T05:19:05.941 [Verbose] Function metadata read.
+2018-09-21T05:19:05.941 [Verbose] Binding providers loaded.
+2018-09-21T05:19:05.941 [Verbose] Binding providers initialized.
+2018-09-21T05:19:05.941 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-21T05:19:05.941 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-21T05:19:05.941 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-21T05:19:05.941 [Verbose] Extension loading complete.
+2018-09-21T05:19:06.004 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-21T05:19:06.055 [Verbose] Metadata provider created.
+2018-09-21T05:19:06.066 [Verbose] Function descriptors read.
+2018-09-21T05:19:06.066 [Info] Generating 2 job function(s)
+2018-09-21T05:19:06.066 [Verbose] Development settings applied
+2018-09-21T05:19:06.066 [Info] Found the following functions:
+Host.Functions.CreateRating
+Host.Functions.GetRatings
+2018-09-21T05:19:06.066 [Info] Host initialized (412ms)
+2018-09-21T05:19:06.191 [Info] Host started (540ms)
+2018-09-21T05:19:06.191 [Info] Job host started
+2018-09-21T05:19:06.285 [Info] Host lock lease acquired by instance ID 'ec8656fd25dbcc6d5bbff1535667d9cd'.
+2018-09-21T05:19:38.247 [Info] Stopping Host
+2018-09-21T05:19:38.247 [Info] Job host stopped

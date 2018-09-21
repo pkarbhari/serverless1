@@ -1,0 +1,73 @@
+2018-09-20T05:03:24.470 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:03:32.496 [Info] Function started (Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677)
+2018-09-20T05:03:35.172 [Error] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:03:35.203 [Error] Function completed (Failure, Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677, Duration=2719ms)
+2018-09-20T05:07:50.018 [Info] Function started (Id=f3263d41-fc0e-48be-86d1-5115c17df113)
+2018-09-20T05:07:50.206 [Error] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:07:50.354 [Error] Function completed (Failure, Id=f3263d41-fc0e-48be-86d1-5115c17df113, Duration=327ms)
+2018-09-20T05:29:57.691 [Info] Function started (Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb)
+2018-09-20T05:29:59.783 [Error] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:29:59.815 [Error] Function completed (Failure, Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb, Duration=2132ms)
+2018-09-20T05:30:23.980 [Info] Function started (Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2)
+2018-09-20T05:30:26.554 [Error] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:30:26.585 [Error] Function completed (Failure, Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2, Duration=2611ms)
+2018-09-20T05:34:52.747 [Info] Function started (Id=69caef9b-f826-4328-a768-d9c41ca20fa1)
+2018-09-20T05:34:53.240 [Error] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:34:53.337 [Error] Function completed (Failure, Id=69caef9b-f826-4328-a768-d9c41ca20fa1, Duration=590ms)
+2018-09-20T05:41:54.985 [Info] Function started (Id=b6fc73df-ca22-4199-859c-0ffeac0b0520)
+2018-09-20T05:41:55.469 [Error] Exception while executing function: Functions.CreateRating. mscorlib: One or more errors occurred. Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3).
+2018-09-20T05:41:55.516 [Error] Function completed (Failure, Id=b6fc73df-ca22-4199-859c-0ffeac0b0520, Duration=533ms)
+2018-09-20T05:49:52.023 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:53.041 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:54.181 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:54.556 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:55.510 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:58.296 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:02.637 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:03.075 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:08.172 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:25.948 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:55.676 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:05.215 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:09.713 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:16.485 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:52:03.842 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:52:07.585 [Info] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:53:13.213 [Info] Function started (Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357)
+2018-09-20T05:53:47.335 [Info] JavaScript HTTP trigger function processed a request.
+2018-09-20T05:53:48.229 [Info] Function completed (Success, Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357, Duration=35006ms)

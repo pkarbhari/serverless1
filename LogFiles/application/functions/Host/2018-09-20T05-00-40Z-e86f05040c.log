@@ -1,0 +1,975 @@
+2018-09-20T05:00:39.748 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:00:39.748 [Info] Executed HTTP request: {
+  "requestId": "1bb6956e-4860-4999-af89-96ad4e1ca1ad",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:00:39.920 [Info] Executing HTTP request: {
+  "requestId": "1198f983-0b4e-4b1c-8001-831f8416a5e3",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:00:39.951 [Info] Executed HTTP request: {
+  "requestId": "1198f983-0b4e-4b1c-8001-831f8416a5e3",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:00:39.987 [Info] Executing HTTP request: {
+  "requestId": "0767f04d-0ca4-4605-aecc-2b448b198b7f",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:00:39.998 [Info] Executed HTTP request: {
+  "requestId": "0767f04d-0ca4-4605-aecc-2b448b198b7f",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:01:08.635 [Info] Executing HTTP request: {
+  "requestId": "3f24503b-121c-4d85-87f8-88b046881d53",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:01:08.635 [Info] Executing HTTP request: {
+  "requestId": "ce64d097-4553-4ca2-8806-46b4aa6c767e",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:01:08.653 [Info] Executed HTTP request: {
+  "requestId": "ce64d097-4553-4ca2-8806-46b4aa6c767e",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:01:08.653 [Info] Executing HTTP request: {
+  "requestId": "492d8adc-70d2-4112-a816-e07fce3e88cd",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T05:01:08.653 [Info] Executed HTTP request: {
+  "requestId": "492d8adc-70d2-4112-a816-e07fce3e88cd",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:01:08.666 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:01:08.666 [Info] Executed HTTP request: {
+  "requestId": "3f24503b-121c-4d85-87f8-88b046881d53",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:01:08.791 [Info] Executing HTTP request: {
+  "requestId": "e635328a-0cc0-4f5c-abd0-fc423bad39ae",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:01:08.873 [Info] Executed HTTP request: {
+  "requestId": "e635328a-0cc0-4f5c-abd0-fc423bad39ae",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:08.783 [Info] Executing HTTP request: {
+  "requestId": "306a77b1-98c5-4a1a-93c6-96160b301087",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T05:02:08.783 [Info] Executed HTTP request: {
+  "requestId": "306a77b1-98c5-4a1a-93c6-96160b301087",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:08.783 [Info] Executing HTTP request: {
+  "requestId": "7bdbf580-d246-44f8-85b3-ae384412d348",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:02:08.800 [Info] Executing HTTP request: {
+  "requestId": "4b7d7e56-5254-456e-b292-55d1d4e40d8d",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:02:08.800 [Info] Executed HTTP request: {
+  "requestId": "4b7d7e56-5254-456e-b292-55d1d4e40d8d",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:08.829 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:02:08.829 [Info] Executed HTTP request: {
+  "requestId": "7bdbf580-d246-44f8-85b3-ae384412d348",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:08.986 [Info] Executing HTTP request: {
+  "requestId": "180c48a4-9631-4bc8-be4c-0174c69bb6f6",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:02:08.986 [Info] Executed HTTP request: {
+  "requestId": "180c48a4-9631-4bc8-be4c-0174c69bb6f6",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:09.758 [Info] Executing HTTP request: {
+  "requestId": "cfa0d948-db26-4aba-9fad-7ac135af2b42",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:02:09.758 [Info] Executed HTTP request: {
+  "requestId": "cfa0d948-db26-4aba-9fad-7ac135af2b42",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:02:09.836 [Info] Executing HTTP request: {
+  "requestId": "45967b0c-a250-4450-a891-f98062722563",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:02:09.852 [Info] Executed HTTP request: {
+  "requestId": "45967b0c-a250-4450-a891-f98062722563",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:03:24.470 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:03:32.496 [Info] Executing HTTP request: {
+  "requestId": "3a5c0bea-1fbf-4fb9-848d-71daf6da808c",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:03:32.496 [Info,CreateRating] Function started (Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677)
+2018-09-20T05:03:32.733 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677)
+2018-09-20T05:03:35.141 [Error] A ScriptHost error has occurred
+2018-09-20T05:03:35.141 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:03:35.172 [Error,CreateRating] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:03:35.188 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:03:35.188 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:03:35.203 [Error,CreateRating] Function completed (Failure, Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677, Duration=2719ms)
+2018-09-20T05:03:35.219 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=b64f2e9e-69a3-4cab-ac82-6c808e9fe677)
+2018-09-20T05:03:35.219 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:03:35.219 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is 'b64f2e9e-69a3-4cab-ac82-6c808e9fe677'
+2018-09-20T05:03:35.219 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:03:35.328 [Error] {"id":"7703a9a4-4d60-44f3-9be5-0072ee708105","requestId":"3a5c0bea-1fbf-4fb9-848d-71daf6da808c","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 7703a9a4-4d60-44f3-9be5-0072ee708105"}
+2018-09-20T05:03:35.328 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: cbeebd7e-7e44-418b-9677-43b9b319e67d, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:03:34.7977257Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:03:34.7977257Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:03:35.941 [Info] Executing HTTP request: {
+  "requestId": "97b86d10-4c16-46d7-8431-014dc884ccb7",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:03:35.941 [Info] Executed HTTP request: {
+  "requestId": "97b86d10-4c16-46d7-8431-014dc884ccb7",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:07:50.018 [Info] Executing HTTP request: {
+  "requestId": "f8b4b469-f9b5-4a76-b6e2-c188fe6a644a",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:07:50.018 [Info,CreateRating] Function started (Id=f3263d41-fc0e-48be-86d1-5115c17df113)
+2018-09-20T05:07:50.018 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=f3263d41-fc0e-48be-86d1-5115c17df113)
+2018-09-20T05:07:50.112 [Error] A ScriptHost error has occurred
+2018-09-20T05:07:50.112 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:07:50.206 [Error,CreateRating] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:07:50.319 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:07:50.319 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:07:50.354 [Error,CreateRating] Function completed (Failure, Id=f3263d41-fc0e-48be-86d1-5115c17df113, Duration=327ms)
+2018-09-20T05:07:50.354 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=f3263d41-fc0e-48be-86d1-5115c17df113)
+2018-09-20T05:07:50.354 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:07:50.373 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is 'f3263d41-fc0e-48be-86d1-5115c17df113'
+2018-09-20T05:07:50.373 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:07:50.385 [Error] {"id":"06bfe8c7-449b-451c-97d2-7b7c8d994e61","requestId":"f8b4b469-f9b5-4a76-b6e2-c188fe6a644a","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 06bfe8c7-449b-451c-97d2-7b7c8d994e61"}
+2018-09-20T05:07:50.385 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: 0bb30719-685d-4312-b1fa-82a2f86f09fa, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, RequestStats: 
+RequestStartTime: 2018-09-20T05:07:50.0914784Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:07:50.0914784Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:07:50.713 [Info] Executing HTTP request: {
+  "requestId": "b1232608-a614-43ea-b17f-cb06f77e1039",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:07:50.713 [Info] Executed HTTP request: {
+  "requestId": "b1232608-a614-43ea-b17f-cb06f77e1039",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:44.812 [Info] Executing HTTP request: {
+  "requestId": "b3a44eee-1997-4927-9e1e-72f8173cf8f9",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T05:09:44.812 [Info] Executed HTTP request: {
+  "requestId": "b3a44eee-1997-4927-9e1e-72f8173cf8f9",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:44.843 [Info] Executing HTTP request: {
+  "requestId": "6ad41280-ff8a-4d7f-860a-f29568fc7718",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:09:44.859 [Info] Executing HTTP request: {
+  "requestId": "5565abc6-69b4-4c93-9179-60b37f883ab1",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:09:44.890 [Info] Executed HTTP request: {
+  "requestId": "5565abc6-69b4-4c93-9179-60b37f883ab1",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:44.905 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:09:44.905 [Info] Executed HTTP request: {
+  "requestId": "6ad41280-ff8a-4d7f-860a-f29568fc7718",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:45.100 [Info] Executing HTTP request: {
+  "requestId": "966222a4-876e-4b6b-9750-a763175c6210",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:09:45.100 [Info] Executed HTTP request: {
+  "requestId": "966222a4-876e-4b6b-9750-a763175c6210",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:45.100 [Info] Executing HTTP request: {
+  "requestId": "c445d0d7-b926-41dd-9b63-ca6b6bb87205",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:09:45.115 [Info] Executing HTTP request: {
+  "requestId": "831e3f1f-4693-4ef4-8058-7a4c76d61f70",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:09:45.115 [Info] Executed HTTP request: {
+  "requestId": "831e3f1f-4693-4ef4-8058-7a4c76d61f70",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:09:45.115 [Info] Executed HTTP request: {
+  "requestId": "c445d0d7-b926-41dd-9b63-ca6b6bb87205",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:10:28.707 [Info] Executing HTTP request: {
+  "requestId": "ef77f681-4aa0-4220-9056-563270fe8bec",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:10:28.765 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:10:28.765 [Info] Executed HTTP request: {
+  "requestId": "ef77f681-4aa0-4220-9056-563270fe8bec",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:18.940 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:29:18.940 [Info] Executed HTTP request: {
+  "requestId": "b60c08c2-7e83-46e5-86be-1e776443cec4",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:19.127 [Info] Executing HTTP request: {
+  "requestId": "68d476cd-82fc-4c87-834f-102a47715455",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:29:19.146 [Info] Executing HTTP request: {
+  "requestId": "c3316579-3853-463c-8148-c41fc214f254",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:29:19.146 [Info] Executed HTTP request: {
+  "requestId": "c3316579-3853-463c-8148-c41fc214f254",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:19.146 [Info] Executed HTTP request: {
+  "requestId": "68d476cd-82fc-4c87-834f-102a47715455",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:19.158 [Info] Executing HTTP request: {
+  "requestId": "a5c3f3ed-4e29-4e99-806d-43384f6acc90",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:29:19.158 [Info] Executed HTTP request: {
+  "requestId": "a5c3f3ed-4e29-4e99-806d-43384f6acc90",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:28.729 [Info] Executing HTTP request: {
+  "requestId": "d2daf7aa-3914-4b4c-8384-99d98ba4980a",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:29:28.745 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:29:28.745 [Info] Executed HTTP request: {
+  "requestId": "d2daf7aa-3914-4b4c-8384-99d98ba4980a",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:41.847 [Info] Executing HTTP request: {
+  "requestId": "a32e566d-e8c5-4225-a7ae-74e38a4b0294",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:29:41.925 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:29:41.925 [Info] Executed HTTP request: {
+  "requestId": "a32e566d-e8c5-4225-a7ae-74e38a4b0294",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:29:44.301 [Info] Stopping Host
+2018-09-20T05:29:44.301 [Info] Job host stopped
+2018-09-20T05:29:57.390 [Info] Reading host configuration file 'D:\home\site\wwwroot\host.json'
+2018-09-20T05:29:57.421 [Info] Host configuration file read:
+{}
+2018-09-20T05:29:57.437 [Verbose] Host configuration applied.
+2018-09-20T05:29:57.437 [Info] Starting Host (HostId=prkfunapp, Version=1.0.11959.0, InstanceId=dc3e1545-850f-43fe-a562-0618efb0bc54, ProcessId=3336, AppDomainId=2, Debug=True, ConsecutiveErrors=0, StartupCount=1, FunctionsExtensionVersion=~1)
+2018-09-20T05:29:57.484 [Verbose] Debug file watch initialized.
+2018-09-20T05:29:57.484 [Verbose] File event source initialized.
+2018-09-20T05:29:57.499 [Verbose] Function metadata read.
+2018-09-20T05:29:57.499 [Verbose] Binding providers loaded.
+2018-09-20T05:29:57.499 [Verbose] Binding providers initialized.
+2018-09-20T05:29:57.499 [Info] Loaded custom extension 'BotFrameworkConfiguration'
+2018-09-20T05:29:57.499 [Info] Loaded custom extension 'SendGridConfiguration'
+2018-09-20T05:29:57.499 [Info] Loaded custom extension 'EventGridExtensionConfig'
+2018-09-20T05:29:57.499 [Verbose] Extension loading complete.
+2018-09-20T05:29:57.624 [Info] registered EventGrid Endpoint = https://prkfunapp.azurewebsites.net/admin/extensions/EventGridExtensionConfig
+2018-09-20T05:29:57.655 [Verbose] Metadata provider created.
+2018-09-20T05:29:57.672 [Verbose] Function descriptors read.
+2018-09-20T05:29:57.672 [Info] Generating 1 job function(s)
+2018-09-20T05:29:57.672 [Verbose] Development settings applied
+2018-09-20T05:29:57.672 [Info] Found the following functions:
+Host.Functions.CreateRating
+2018-09-20T05:29:57.672 [Info] Host initialized (350ms)
+2018-09-20T05:29:57.691 [Info,CreateRating] Function started (Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb)
+2018-09-20T05:29:57.702 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb)
+2018-09-20T05:29:57.987 [Info] Host started (663ms)
+2018-09-20T05:29:57.987 [Info] Job host started
+2018-09-20T05:29:57.987 [Info] Host lock lease acquired by instance ID 'e86f05040cfecbacdc27214d57f5227b'.
+2018-09-20T05:29:59.772 [Error] A ScriptHost error has occurred
+2018-09-20T05:29:59.772 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:29:59.783 [Error,CreateRating] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:29:59.815 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:29:59.815 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:29:59.815 [Error,CreateRating] Function completed (Failure, Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb, Duration=2132ms)
+2018-09-20T05:29:59.815 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=8e9a83f8-c5dd-495c-8f36-447547a9c9eb)
+2018-09-20T05:29:59.815 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:29:59.815 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is '8e9a83f8-c5dd-495c-8f36-447547a9c9eb'
+2018-09-20T05:29:59.815 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:29:59.864 [Error] {"id":"c0961388-efd6-475a-91e8-46a083f6aadb","requestId":"cf0db721-10c4-474b-8fa8-0dd09b55f5fe","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID c0961388-efd6-475a-91e8-46a083f6aadb"}
+2018-09-20T05:29:59.864 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: a8137f9b-914e-4b33-afd9-387e02fb4451, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, RequestStats: 
+RequestStartTime: 2018-09-20T05:29:59.5883904Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:29:59.5883904Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.162.156:13700/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030847s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:23.980 [Info] Executing HTTP request: {
+  "requestId": "fd0e659e-a3fa-4fde-b0d3-1b5c88687106",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:30:23.980 [Info,CreateRating] Function started (Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2)
+2018-09-20T05:30:23.980 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2)
+2018-09-20T05:30:26.544 [Error] A ScriptHost error has occurred
+2018-09-20T05:30:26.544 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:26.554 [Error,CreateRating] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:30:26.585 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:30:26.585 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:26.585 [Error,CreateRating] Function completed (Failure, Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2, Duration=2611ms)
+2018-09-20T05:30:26.604 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=764197bc-31e2-4688-bdc9-abf0a6df9ba2)
+2018-09-20T05:30:26.604 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:26.617 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is '764197bc-31e2-4688-bdc9-abf0a6df9ba2'
+2018-09-20T05:30:26.617 [Error,CreateRating] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:26.633 [Error] {"id":"4cf81221-5161-4ac5-866e-99eae1dc0e50","requestId":"fd0e659e-a3fa-4fde-b0d3-1b5c88687106","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 4cf81221-5161-4ac5-866e-99eae1dc0e50"}
+2018-09-20T05:30:26.633 [Error] Message: {"Errors":["Owner resource does not exist"]}
+ActivityId: c6f703ba-2d9b-4abf-9f43-8c0d36cd7fd2, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:30:23.9891722Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:30:23.9991725Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 6, GlobalCommittedLsn: 6, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 6, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:30:27.151 [Info] Executing HTTP request: {
+  "requestId": "7dfc1f08-2689-4257-86d4-8d60ea67b201",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:30:27.200 [Info] Executed HTTP request: {
+  "requestId": "7dfc1f08-2689-4257-86d4-8d60ea67b201",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:33:36.494 [Info] Executing HTTP request: {
+  "requestId": "724d5b17-5847-4896-b3ca-148019031bb4",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:33:36.699 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:33:36.699 [Info] Executed HTTP request: {
+  "requestId": "724d5b17-5847-4896-b3ca-148019031bb4",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:26.430 [Info] Executing HTTP request: {
+  "requestId": "2dc06445-e43d-4476-abc6-e43897849898",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T05:34:26.466 [Info] Executed HTTP request: {
+  "requestId": "2dc06445-e43d-4476-abc6-e43897849898",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:26.664 [Info] Executing HTTP request: {
+  "requestId": "0932f536-b05d-4991-a84b-0c62d236d26f",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:34:26.664 [Info] Executing HTTP request: {
+  "requestId": "bd97713f-0011-489b-b0e8-ce005bd2f4bc",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:34:26.664 [Info] Executed HTTP request: {
+  "requestId": "bd97713f-0011-489b-b0e8-ce005bd2f4bc",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:26.696 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:34:26.696 [Info] Executed HTTP request: {
+  "requestId": "0932f536-b05d-4991-a84b-0c62d236d26f",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:27.146 [Info] Executing HTTP request: {
+  "requestId": "574c0c81-089b-45f5-ba17-85094f8d44c1",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:34:27.146 [Info] Executed HTTP request: {
+  "requestId": "574c0c81-089b-45f5-ba17-85094f8d44c1",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:27.162 [Info] Executing HTTP request: {
+  "requestId": "0fbe8b9d-1886-47cb-a16c-13a58ccff241",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:34:27.179 [Info] Executing HTTP request: {
+  "requestId": "79e9416b-29f0-4117-a854-92c0eaf41888",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:34:27.179 [Info] Executed HTTP request: {
+  "requestId": "79e9416b-29f0-4117-a854-92c0eaf41888",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:27.209 [Info] Executed HTTP request: {
+  "requestId": "0fbe8b9d-1886-47cb-a16c-13a58ccff241",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:34:52.747 [Info] Executing HTTP request: {
+  "requestId": "6e186d43-9554-4565-95d8-4c67ea508b20",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:34:52.747 [Info,CreateRating] Function started (Id=69caef9b-f826-4328-a768-d9c41ca20fa1)
+2018-09-20T05:34:52.747 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=69caef9b-f826-4328-a768-d9c41ca20fa1)
+2018-09-20T05:34:52.826 [Error] A ScriptHost error has occurred
+2018-09-20T05:34:52.826 [Error] Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:34:53.240 [Error,CreateRating] Exception while executing function: Functions.CreateRating. Microsoft.Azure.Documents.Client: Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0.
+2018-09-20T05:34:53.319 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:34:53.319 [Error,CreateRating] Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:34:53.337 [Error,CreateRating] Function completed (Failure, Id=69caef9b-f826-4328-a768-d9c41ca20fa1, Duration=590ms)
+2018-09-20T05:34:53.350 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=69caef9b-f826-4328-a768-d9c41ca20fa1)
+2018-09-20T05:34:53.350 [Error,CreateRating] Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:34:53.350 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is '69caef9b-f826-4328-a768-d9c41ca20fa1'
+2018-09-20T05:34:53.350 [Error,CreateRating] Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:34:53.366 [Error] {"id":"95097699-1a75-4ba7-b707-856a4b0dbc79","requestId":"6e186d43-9554-4565-95d8-4c67ea508b20","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 95097699-1a75-4ba7-b707-856a4b0dbc79"}
+2018-09-20T05:34:53.366 [Error] Message: {"Errors":["Resource Not Found"]}
+ActivityId: 80b1fcaf-cfa6-4914-b9e4-7519ad57804e, Request URI: /apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, RequestStats: 
+RequestStartTime: 2018-09-20T05:34:52.8036696Z, Number of regions attempted: 1
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.171.28:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030848s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+ResponseTime: 2018-09-20T05:34:52.8036696Z, StoreReadResult: StorePhysicalAddress: rntbd://100.115.167.154:11000/apps/a76af614-3421-4318-9c9e-33056ff5a2b4/services/6428b424-7ac0-490e-bd99-428b58ecd427/partitions/1f978cde-5d53-46c1-9205-8ec5c455c1df/replicas/131817900115030849s, LSN: 7, GlobalCommittedLsn: 7, PartitionKeyRangeId: , IsValid: True, StatusCode: 404, IsGone: False, IsNotFound: True, IsInvalidPartition: False, RequestCharge: 1, ItemLSN: -1, SessionToken: 7, ResourceType: Collection, OperationType: Read
+, SDK: Microsoft.Azure.Documents.Common/2.0.0.0
+2018-09-20T05:40:07.844 [Info] Executing HTTP request: {
+  "requestId": "0614c8c6-9af4-4fa6-872e-7783d1dd8a50",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:40:07.876 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:40:07.876 [Info] Executed HTTP request: {
+  "requestId": "0614c8c6-9af4-4fa6-872e-7783d1dd8a50",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:19.269 [Info] Executing HTTP request: {
+  "requestId": "9af1a0a2-5dfa-4656-aab6-77e478425b74",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:41:19.429 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:41:19.429 [Info] Executed HTTP request: {
+  "requestId": "9af1a0a2-5dfa-4656-aab6-77e478425b74",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:22.800 [Info] Executing HTTP request: {
+  "requestId": "90502362-9fc0-47b4-bfd3-03f320b2e585",
+  "method": "GET",
+  "uri": "/admin/host/status"
+}
+2018-09-20T05:41:22.815 [Info] Host Status: {
+  "id": "prkfunapp",
+  "state": "Running",
+  "version": "1.0.11959.0"
+}
+2018-09-20T05:41:22.815 [Info] Executed HTTP request: {
+  "requestId": "90502362-9fc0-47b4-bfd3-03f320b2e585",
+  "method": "GET",
+  "uri": "/admin/host/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:22.862 [Info] Executing HTTP request: {
+  "requestId": "eaf1d43d-4f78-4ea0-b1b3-e6df530e10e1",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys"
+}
+2018-09-20T05:41:22.862 [Info] Executed HTTP request: {
+  "requestId": "eaf1d43d-4f78-4ea0-b1b3-e6df530e10e1",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:22.893 [Info] Executing HTTP request: {
+  "requestId": "83adf890-3be9-497f-8dcd-d441e3cf7764",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:41:22.893 [Info] Executed HTTP request: {
+  "requestId": "83adf890-3be9-497f-8dcd-d441e3cf7764",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:23.268 [Info] Executing HTTP request: {
+  "requestId": "5bed906b-f197-4aa1-8163-6a2f224c568b",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys"
+}
+2018-09-20T05:41:23.284 [Info] Executed HTTP request: {
+  "requestId": "5bed906b-f197-4aa1-8163-6a2f224c568b",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:23.284 [Info] Executing HTTP request: {
+  "requestId": "e6c0a744-b93e-448e-b860-8d4804f7e89e",
+  "method": "GET",
+  "uri": "/admin/host/keys"
+}
+2018-09-20T05:41:23.284 [Info] Executed HTTP request: {
+  "requestId": "e6c0a744-b93e-448e-b860-8d4804f7e89e",
+  "method": "GET",
+  "uri": "/admin/host/keys",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:23.284 [Info] Executing HTTP request: {
+  "requestId": "4b2c9518-aa0b-42eb-b780-ef081609dfa3",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master"
+}
+2018-09-20T05:41:23.284 [Info] Executed HTTP request: {
+  "requestId": "4b2c9518-aa0b-42eb-b780-ef081609dfa3",
+  "method": "GET",
+  "uri": "/admin/host/systemkeys/_master",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
+2018-09-20T05:41:54.985 [Info] Executing HTTP request: {
+  "requestId": "c0c1c1a3-a7db-429c-b172-4b681e643ed8",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:41:54.985 [Info,CreateRating] Function started (Id=b6fc73df-ca22-4199-859c-0ffeac0b0520)
+2018-09-20T05:41:54.985 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=b6fc73df-ca22-4199-859c-0ffeac0b0520)
+2018-09-20T05:41:55.407 [Error] A ScriptHost error has occurred
+2018-09-20T05:41:55.407 [Error] Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+2018-09-20T05:41:55.469 [Error,CreateRating] Exception while executing function: Functions.CreateRating. mscorlib: One or more errors occurred. Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3).
+2018-09-20T05:41:55.516 [Error,CreateRating] Exception while executing function: Functions.CreateRating
+2018-09-20T05:41:55.516 [Error,CreateRating] Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+2018-09-20T05:41:55.516 [Error,CreateRating] Function completed (Failure, Id=b6fc73df-ca22-4199-859c-0ffeac0b0520, Duration=533ms)
+2018-09-20T05:41:55.534 [Error,CreateRating] Executed 'Functions.CreateRating' (Failed, Id=b6fc73df-ca22-4199-859c-0ffeac0b0520)
+2018-09-20T05:41:55.534 [Error,CreateRating] Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+2018-09-20T05:41:55.534 [Error,CreateRating] Function had errors. See Azure WebJobs SDK dashboard for details. Instance ID is 'b6fc73df-ca22-4199-859c-0ffeac0b0520'
+2018-09-20T05:41:55.534 [Error,CreateRating] Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+2018-09-20T05:41:55.534 [Error] {"id":"9d22feb6-43dd-4f3f-9d29-93ca6201b6b0","requestId":"c0c1c1a3-a7db-429c-b172-4b681e643ed8","statusCode":500,"errorCode":0,"message":"An error has occurred. For more information, please check the logs for error ID 9d22feb6-43dd-4f3f-9d29-93ca6201b6b0"}
+2018-09-20T05:41:55.534 [Error] Error: Cannot find module 'request-promise'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (D:\home\site\wwwroot\CreateRating\index.js:1:74)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+2018-09-20T05:49:52.023 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:53.041 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:54.181 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:54.556 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:55.510 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:49:58.296 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:02.637 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:03.075 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:08.172 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:25.948 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:50:55.676 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:05.215 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:09.713 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:51:16.485 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:52:03.842 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:52:07.585 [Info,CreateRating] Script for function 'CreateRating' changed. Reloading.
+2018-09-20T05:53:13.213 [Info] Executing HTTP request: {
+  "requestId": "3a0a4c57-6270-4ec7-950b-68ba68884238",
+  "method": "POST",
+  "uri": "/api/CreateRating"
+}
+2018-09-20T05:53:13.213 [Info,CreateRating] Function started (Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357)
+2018-09-20T05:53:13.213 [Info,CreateRating] Executing 'Functions.CreateRating' (Reason='This function was programmatically called via the host APIs.', Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357)
+2018-09-20T05:53:47.335 [Info,CreateRating] JavaScript HTTP trigger function processed a request.
+2018-09-20T05:53:48.229 [Info,CreateRating] Function completed (Success, Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357, Duration=35006ms)
+2018-09-20T05:53:48.229 [Info,CreateRating] Executed 'Functions.CreateRating' (Succeeded, Id=2ef4e3f6-1b8c-4552-8bb8-38f58ab53357)
+2018-09-20T05:53:48.229 [Info] Executed HTTP request: {
+  "requestId": "3a0a4c57-6270-4ec7-950b-68ba68884238",
+  "method": "POST",
+  "uri": "/api/CreateRating",
+  "authorizationLevel": "Anonymous",
+  "status": "BadRequest"
+}
+2018-09-20T05:53:49.043 [Info] Executing HTTP request: {
+  "requestId": "4424faa1-3e9a-46bd-8287-ee39b38c7034",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status"
+}
+2018-09-20T05:53:49.043 [Info] Executed HTTP request: {
+  "requestId": "4424faa1-3e9a-46bd-8287-ee39b38c7034",
+  "method": "GET",
+  "uri": "/admin/functions/CreateRating/status",
+  "authorizationLevel": "Admin",
+  "status": "OK"
+}
