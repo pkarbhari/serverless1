@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2018-09-20T04:40:02.613" instance="c21ead" url="/api/siteextensions/?api-version=2015-08-01" method="GET" type="request" pid="6044,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
-  <step title="Cleanup Xml Logs" date="2018-09-20T04:40:02.660" /><!-- duration: 63ms -->
-</step><!-- duration: 156ms -->

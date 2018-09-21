@@ -1,6 +1,0 @@
-<step title="Incoming Request" date="2018-09-21T05:10:15.516" instance="0eeea7" url="/deploy?scmType=GitHub&amp;isAsync=true" method="POST" type="request" pid="6128,2,9" Connection="Keep-Alive" Content-Length="84" Authorization="Bas..." Expect="100-continue" Host="prkfunapp.scm.azurewebsites.net" User-Agent="Azure-WebSites-Controller/77.0.8598.30" x-ms-request-id="ad9ded40-e5b5-4887-add2-8a5ee29a10f7" X-WAWS-Unencoded-URL="/deploy?scmType=GitHub&amp;isAsync=true" CLIENT-IP="138.91.225.40:39232" IS-SERVICE-TUNNELED="0" X-ARR-LOG-ID="ad9ded40-e5b5-4887-add2-8a5ee29a10f7" X-SITE-DEPLOYMENT-ID="prkfunapp" WAS-DEFAULT-HOSTNAME="prkfunapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
-  <step title="FetchHandler" date="2018-09-21T05:10:15.548" >
-    <step title="Start deployment in the background" date="2018-09-21T05:10:15.563" /><!-- duration: 203ms -->
-  </step><!-- duration: 250ms -->
-  <step title="Outgoing response" date="2018-09-21T05:10:15.813" type="response" statusCode="202" statusText="Accepted" Server="Microsoft-IIS/10.0" Location="https://prkfunapp.scm.azurewebsites.net/api/deployments/latest?deployer=GitHub&amp;time=2018-09-21_05-10-15Z" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 31ms -->
-</step><!-- duration: 359ms -->

@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2018-09-20T06:20:55.481" instance="d08025" url="/api/commandstream/ping?shell=CMD&amp;_=1537420243590" method="GET" type="request" pid="6432,2,7" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
-  <step title="Cleanup Xml Logs" date="2018-09-20T06:20:55.575" /><!-- duration: 47ms -->
-</step><!-- duration: 156ms -->

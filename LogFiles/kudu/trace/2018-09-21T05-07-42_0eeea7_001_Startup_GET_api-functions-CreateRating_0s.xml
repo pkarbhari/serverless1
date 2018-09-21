@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2018-09-21T05:07:42.091" instance="0eeea7" url="/api/functions/CreateRating" method="GET" type="request" pid="6128,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="GitHub" >
-  <step title="Cleanup Xml Logs" date="2018-09-21T05:07:42.123" /><!-- duration: 47ms -->
-</step><!-- duration: 94ms -->

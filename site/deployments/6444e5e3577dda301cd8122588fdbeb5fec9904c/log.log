@@ -1,9 +1,0 @@
-2018-09-21T05:13:30.9604615Z,Updating submodules.,b80d1eb2-4868-4d97-aaef-ea20ac4851b5,0
-2018-09-21T05:13:31.3042313Z,Preparing deployment for commit id '6444e5e357'.,3a330372-8392-47f2-83d4-388dfdfe9265,0
-2018-09-21T05:13:32.3667216Z,Generating deployment script.,f7f5d9b1-9318-42fb-b127-627ad663537f,0
-	2018-09-21T05:13:32.5385806Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "D:\home\site\repository" -o "D:\home\site\deployments\tools" --functionApp --sitePath "D:\home\site\repository"').,,0
-2018-09-21T05:13:32.8198046Z,Running deployment command...,7ac77884-4b57-40a4-bd15-f46d278a993b,0
-	2018-09-21T05:13:32.8511132Z,Command: "D:\home\site\deployments\tools\deploy.cmd",,0
-	2018-09-21T05:13:33.9135631Z,Thread was being aborted.,,1
-	2018-09-21T05:13:34.0854588Z,Thread was being aborted.,,2
-2018-09-21T05:13:37.2886745Z,An unknown error has occurred. Check the diagnostic log for details.,88e1e4bb-273f-4998-9915-c95b3f5b8b3f,2

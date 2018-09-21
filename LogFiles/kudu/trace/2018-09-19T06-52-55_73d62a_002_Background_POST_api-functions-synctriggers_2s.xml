@@ -1,8 +1,0 @@
-<step title="BackgroundTrace" date="2018-09-19T06:52:55.418" instance="73d62a" url="/api/functions/synctriggers" method="POST" >
-  <step title="Cleanup Xml Logs" date="2018-09-19T06:52:55.450" /><!-- duration: 47ms -->
-  <step title="Syncing httpTrigger of HttpTriggerJS1" date="2018-09-19T06:52:55.574" /><!-- duration: 16ms -->
-  <step title="Skipping http of HttpTriggerJS1" date="2018-09-19T06:52:55.621" /><!-- duration: 16ms -->
-  <step title="Begin HttpPost https://prkfunapp.scm.azurewebsites.net/operations/settriggers, x-ms-request-id: eceb80f2-f623-41c0-8995-3f24e27928f2" date="2018-09-19T06:52:55.840" /><!-- duration: 31ms -->
-  <step title="End HttpPost, status: OK" date="2018-09-19T06:52:57.512" /><!-- duration: 16ms -->
-  <step title="Syncing 1 function triggers with payload size 109 bytes successful." date="2018-09-19T06:52:57.559" /><!-- duration: 16ms -->
-</step><!-- duration: 2187ms -->

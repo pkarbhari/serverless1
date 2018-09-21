@@ -1,6 +1,0 @@
-<step title="Incoming Request" date="2018-09-21T05:05:07.702" instance="5dd988" url="/deploy?scmType=GitHub" method="POST" type="request" pid="5116,2,16" Connection="Keep-Alive" Content-Length="9182" Content-Type="application/x-www-form-urlencoded" Accept="*/*" Authorization="Bas..." Host="prkfunapp.scm.azurewebsites.net" User-Agent="GitHub-Hookshot/1ec77d4" X-GitHub-Event="ping" X-GitHub-Delivery="e8306740-bd5b-11e8-9a9e-9604d1eef101" X-WAWS-Unencoded-URL="/deploy?scmType=GitHub" CLIENT-IP="192.30.252.34:38585" IS-SERVICE-TUNNELED="0" X-ARR-LOG-ID="5f85afcd-2f06-44ea-94de-89ccb3bdcbd5" X-SITE-DEPLOYMENT-ID="prkfunapp" WAS-DEFAULT-HOSTNAME="prkfunapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
-  <step title="FetchHandler" date="2018-09-21T05:05:07.796" >
-    <step title="No-op for deployment." date="2018-09-21T05:05:07.830" /><!-- duration: 44ms -->
-  </step><!-- duration: 109ms -->
-  <step title="Outgoing response" date="2018-09-21T05:05:07.921" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/10.0" Cache-Control="private" X-AspNet-Version="4.0.30319" /><!-- duration: 31ms -->
-</step><!-- duration: 281ms -->

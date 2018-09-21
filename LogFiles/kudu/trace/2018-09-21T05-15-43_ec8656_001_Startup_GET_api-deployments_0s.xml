@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2018-09-21T05:15:43.997" instance="ec8656" url="/api/deployments/?api-version=2015-08-01" method="GET" type="request" pid="7528,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
-  <step title="Cleanup Xml Logs" date="2018-09-21T05:15:44.029" /><!-- duration: 31ms -->
-</step><!-- duration: 109ms -->

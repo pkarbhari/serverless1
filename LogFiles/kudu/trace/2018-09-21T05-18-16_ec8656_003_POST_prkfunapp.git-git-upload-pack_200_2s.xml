@@ -1,8 +1,0 @@
-<step title="Incoming Request" date="2018-09-21T05:18:16.648" instance="ec8656" url="/prkfunapp.git/git-upload-pack" method="POST" type="request" pid="7536,2,7" Connection="Keep-Alive" Content-Length="175" Content-Type="application/x-git-upload-pack-request" Accept="application/x-git-upload-pack-result" Accept-Encoding="deflate, gzip" Authorization="Bas..." Host="prkfunapp.scm.azurewebsites.net" User-Agent="git/2.18.0.windows.1" X-WAWS-Unencoded-URL="/prkfunapp.git/git-upload-pack" CLIENT-IP="24.17.60.203:53799" IS-SERVICE-TUNNELED="0" X-ARR-LOG-ID="61fbae47-28c5-4115-bef9-0fef0deeeeef" X-SITE-DEPLOYMENT-ID="prkfunapp" WAS-DEFAULT-HOSTNAME="prkfunapp.scm.azurewebsites.net" X-Forwarded-Proto="https" >
-  <step title="RpcService.UploadPackHandler" date="2018-09-21T05:18:16.679" >
-    <step title="GitExeServer.Upload" date="2018-09-21T05:18:16.726" >
-      <step title="Executing external process" date="2018-09-21T05:18:17.650" type="process" path="git.exe" arguments="upload-pack --stateless-rpc &quot;D:\home\site\repository&quot;" /><!-- duration: 1269ms -->
-    </step><!-- duration: 2205ms -->
-  </step><!-- duration: 2361ms -->
-  <step title="Outgoing response" date="2018-09-21T05:18:19.056" type="response" statusCode="200" statusText="OK" Server="Microsoft-IIS/10.0" Expires="Fri, 01 Jan 1980 00:00:00 GMT" Pragma="no-cache" Cache-Control="no-cache, max-age=0, must-revalidate" X-AspNet-Version="4.0.30319" Content-Type="application/x-git-upload-pack-result" /><!-- duration: 31ms -->
-</step><!-- duration: 2455ms -->

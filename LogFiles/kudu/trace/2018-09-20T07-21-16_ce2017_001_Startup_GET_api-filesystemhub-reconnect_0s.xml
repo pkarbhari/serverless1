@@ -1,3 +1,0 @@
-<step title="Startup Request" date="2018-09-20T07:21:16.945" instance="ce2017" url="/api/filesystemhub/reconnect?transport=serverSentEvents&amp;messageId=d-BA177364-D%2C0%7CE%2C5%7CF%2C0%7CG%2C0&amp;clientProtocol=1.4&amp;connectionToken=JfJz0JH%2FBhwSFRuR81LVO9KfV1z%2BErQKLJT9o6o%2FgId%2ByDfDwKG9tytm86P6xrnIFkCQcjvod%2FBT%2BhfsPDqDDV7wEy%2Bl2BVcbWoU8Y7p0oTKVE5QqIZ9S128ZjpH%2F4zB&amp;connectionData=%5B%7B%22name%22%3A%22filesystemhub%22%7D%5D&amp;tid=8" method="GET" type="request" pid="2492,2,6" SCM_SKIP_SSL_VALIDATION="0" ScmType="None" >
-  <step title="Cleanup Xml Logs" date="2018-09-20T07:21:17.023" /><!-- duration: 63ms -->
-</step><!-- duration: 187ms -->
